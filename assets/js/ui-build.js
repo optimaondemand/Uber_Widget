@@ -109,13 +109,13 @@
   function moduleHtml(m, mi) {
     const items = m.items.filter(i => local.showMuted || !i.muted);
     const live = m.items.filter(i => !i.muted && i.kind !== 'header').length;
-    const cal = OCS.data.calendar; const weeks = 36;
+    const weeks = ui.weekCount(OCS.state.plan);
     return `<div class="card module ${m.muted ? 'muted' : ''} ${m.collapsed ? 'collapsed' : ''}" data-module="${m.id}">
   <div class="mhd" title="Drag to reorder module">
     <span class="handle">⋮⋮</span>
     <h3><input class="mtitle" value="${esc(m.title)}" aria-label="Module title"></h3>
     <span class="meta">${live} live${m.items.length - live - m.items.filter(i => i.kind === 'header').length > 0 ? ` · ${m.items.filter(i => i.muted).length} muted` : ''}</span>
-    <select data-week class="btn light sm" style="padding:3px 6px;" title="Week this module starts"><option value="">week…</option>${Array.from({ length: weeks }, (_, i) => `<option value="${i + 1}" ${m.weekStart === i + 1 ? 'selected' : ''}>Wk ${i + 1}</option>`).join('')}</select>
+    <select data-week class="btn light sm" style="padding:3px 6px;" title="Week this module starts (dates from the 2026-27 school calendar)"><option value="">week…</option>${Array.from({ length: weeks }, (_, i) => `<option value="${i + 1}" ${m.weekStart === i + 1 ? 'selected' : ''}>${esc(ui.weekLabel(i + 1))}</option>`).join('')}</select>
     <button class="btn light" data-mute-mod title="${m.muted ? 'Unmute module' : 'Mute module (kept, not exported)'}">${m.muted ? '🔈' : '🔇'}</button>
     <button class="btn light" data-dup-mod title="Duplicate module">⧉</button>
     <button class="btn light" data-del-mod title="Remove module">🗑</button>

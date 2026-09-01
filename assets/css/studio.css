@@ -269,8 +269,11 @@ h3 { font-size: 15px; font-weight: 800; }
 .pacing { display: flex; gap: 4px; overflow-x: auto; padding: 6px 2px 10px; }
 .pacing .wk { min-width: 46px; padding: 6px 4px; border-radius: 8px; background: #fff; border: 1px solid var(--line); text-align: center; font-size: 10.5px; color: var(--muted); font-weight: 800; position: relative; }
 .pacing .wk.q { border-color: var(--teal); }
-.pacing .wk.ev::after { content: ''; position: absolute; left: 50%; bottom: 3px; width: 6px; height: 6px; border-radius: 50%; background: var(--warn); transform: translateX(-50%); }
+.pacing .wk.ev::after { content: ''; position: absolute; left: 50%; bottom: 3px; width: 6px; height: 6px; border-radius: 50%; background: var(--success); transform: translateX(-50%); }
+.pacing .wk.holiday { background: #FDEEEE; border-color: #F1C8C8; color: var(--danger); }
+.pacing .wk.fte { background: #FFF3DC; border-color: #F1DB9E; color: #8A5E12; }
 .pacing .wk.has { background: var(--tint); color: var(--ink); }
+.pacing .wk.has.holiday { background: linear-gradient(180deg, var(--tint) 0 55%, #FDEEEE 55%); }
 
 /* ---------- libraries ---------- */
 .lib-layout { display: grid; grid-template-columns: 300px 1fr; gap: 16px; align-items: start; }

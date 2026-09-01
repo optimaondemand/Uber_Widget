@@ -139,5 +139,11 @@
   ui.kindChip = function (kind) { const m = OCS.kindMeta(kind); return `<span class="chip kind">${m.icon} ${esc(m.label)}</span>`; };
   ui.stdChip = function (code, extra = '') { const j = OCS.jurisdictionOf(code) || ''; const std = OCS.lookupStandard(code); return `<span class="chip ${j.toLowerCase()}" title="${esc(std ? std.text : 'Standard text not loaded yet')}">${esc(code)}${extra}</span>`; };
   ui.videoDots = function (videos) { if (!videos || !videos.total) return ''; return `<span class="vid-dots" title="${videos.ready} of ${videos.total} videos ready">${(videos.slots || []).slice(0, 8).map(s => `<i class="${s.status === 'ready' ? 'ready' : (s.status === 'pending' ? 'pending' : '')}"></i>`).join('')}</span><span>${videos.ready}/${videos.total} videos</span>`; };
+  /* ---------- school-week helpers (plan override, else the school calendar's Week 1) ---------- */
+  ui.week1 = function (plan) { const p = plan || OCS.state.plan; return (p && p.calendar && p.calendar.week1) || (OCS.data.calendar && OCS.data.calendar.week1) || null; };
+  ui.weekOf = function (iso, plan) { const w1 = ui.week1(plan); if (!w1 || !iso) return null; const a = new Date(w1 + 'T12:00:00'), b = new Date(iso + 'T12:00:00'); return Math.floor((b - a) / (7 * 864e5)) + 1; };
+  ui.weekDate = function (n, plan) { const w1 = ui.week1(plan); if (!w1 || !n) return null; const d = new Date(w1 + 'T12:00:00'); d.setDate(d.getDate() + (n - 1) * 7); return d; };
+  ui.weekLabel = function (n, plan) { const d = ui.weekDate(n, plan); return d ? `Wk ${n} · ${d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}` : `Wk ${n}`; };
+  ui.weekCount = function (plan) { const cal = OCS.data.calendar; let last = 36; if (cal && cal.quarters) for (const q of cal.quarters) { const end = (plan && plan.calendar && plan.calendar.quarters && plan.calendar.quarters[q.id]) || q.end; const w = ui.weekOf(end, plan); if (w && w + 1 > last) last = w + 1; } return Math.min(last, 52); };
   ui.emptyState = function (icon, title, text, cta) { return `<div class="card pad" style="text-align:center;padding:40px 20px;"><div style="font-size:44px;">${icon}</div><h2 style="margin:8px 0 4px;">${esc(title)}</h2><p class="muted" style="margin:0 auto 14px;max-width:460px;">${text}</p>${cta || ''}</div>`; };
 })(window.OCS);

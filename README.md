@@ -35,7 +35,7 @@ data/standards/*.json      snapshot of the standards manifest + the six bundles 
 data/templates.json        module templates + component types (hand-authored)
 data/blooms.json           Bloom's verbs, I-can frames, strands (hand-authored)
 data/skins.json            brand palettes (hand-authored)
-data/calendar.json         school calendar (partial; awaiting Caitlin's file)
+data/calendar.json         2026-27 school calendar (board approved 2/3/2026)
 tools/build-catalog.pl     the data pipeline
 tools/serve.ps1            tiny local preview server (Windows PowerShell)
 ```
@@ -82,5 +82,5 @@ GitHub Pages serves the `main` branch root. Push, and the site updates at the UR
 
 - 30 grade-4 and 16 grade-3 math lesson pages referenced by the Canvas exports are not yet published on GitHub Pages (they 404). The studio flags them; they will light up once the repo catches up.
 - Discussion topics export in Common Cartridge format but have not yet been verified against a Canvas import.
-- Templates, skins, and the calendar are starters pending input from subject leads, Bethany, and Caitlin.
+- Templates and skins are starters pending input from subject leads and Bethany. The calendar is the board-approved 2026-27 calendar; early-dismissal planning days appear only as shading on the printed version and are not listed yet.
 - Video specs for Arthur/VR are pending from Porter.

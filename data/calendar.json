@@ -1,27 +1,55 @@
 {
  "schema": "ocs-calendar/1",
  "schoolYear": "2026-27",
- "status": "partial",
- "source": "Only dates confirmed in the 2026-09-01 planning meeting are filled in. Caitlin's school calendar will replace this file; import it from the Calendar panel or drop a new calendar.json here.",
+ "status": "board-approved",
+ "source": "Optima Classical Academy / Optima Academy Online 2026-2027 Academic Calendar, board approved 2/3/2026 (from Caitlin). Early-dismissal employee-planning days are shown only as shading on the printed calendar, so they are not listed here; add them as dates if the office confirms them.",
+ "week1": "2026-08-10",
+ "week1Note": "Monday of the week that holds the Students' First Day (Wednesday, August 12, 2026). Module week numbers count from here.",
  "quarters": [
-  { "id": "Q1", "label": "Quarter 1", "start": null, "end": "2026-10-09" },
-  { "id": "Q2", "label": "Quarter 2", "start": null, "end": null },
-  { "id": "Q3", "label": "Quarter 3", "start": null, "end": null },
-  { "id": "Q4", "label": "Quarter 4", "start": null, "end": null }
+  { "id": "Q1", "label": "Quarter 1", "start": "2026-08-12", "end": "2026-10-09" },
+  { "id": "Q2", "label": "Quarter 2", "start": "2026-10-13", "end": "2026-12-18" },
+  { "id": "Q3", "label": "Quarter 3", "start": "2027-01-05", "end": "2027-03-05" },
+  { "id": "Q4", "label": "Quarter 4", "start": "2027-03-08", "end": "2027-05-28" }
  ],
  "eventTypes": [
-  { "id": "holiday",   "label": "Holiday / no school",  "color": "#BF3F3F" },
-  { "id": "iready",    "label": "i-Ready testing day",  "color": "#D4943A" },
-  { "id": "quarter",   "label": "Quarter boundary",     "color": "#1A8A7D" },
-  { "id": "workday",   "label": "Teacher workday",      "color": "#7A88A8" },
-  { "id": "spotlight", "label": "Spotlight / VR day",   "color": "#8B6FC0" },
-  { "id": "other",     "label": "Other",                "color": "#55C8E8" }
+  { "id": "holiday",   "label": "Holiday / school closed",          "color": "#BF3F3F" },
+  { "id": "fte",       "label": "FTE week (enrollment count)",     "color": "#D4943A" },
+  { "id": "iready",    "label": "i-Ready testing day",              "color": "#C7922C" },
+  { "id": "quarter",   "label": "Quarter boundary",                 "color": "#1A8A7D" },
+  { "id": "milestone", "label": "First day / classes resume / last day", "color": "#34B76F" },
+  { "id": "workday",   "label": "Teacher training / planning (no students)", "color": "#7A88A8" },
+  { "id": "spotlight", "label": "Spotlight / VR day",               "color": "#8B6FC0" },
+  { "id": "other",     "label": "Other",                            "color": "#55C8E8" }
  ],
  "events": [
-  { "date": "2026-10-09", "type": "quarter", "label": "End of Quarter 1 (prototype deadline)" }
+  { "date": "2026-07-06", "end": "2026-07-21", "type": "workday",   "label": "New Teacher Training" },
+  { "date": "2026-07-22", "end": "2026-07-24", "type": "workday",   "label": "Teacher Training (in person, mandatory)" },
+  { "date": "2026-08-03", "end": "2026-08-07", "type": "workday",   "label": "Teacher Training (virtual)" },
+  { "date": "2026-08-12",                      "type": "milestone", "label": "Students' First Day" },
+  { "date": "2026-09-07",                      "type": "holiday",   "label": "Labor Day Holiday (School Closed)" },
+  { "date": "2026-10-05", "end": "2026-10-09", "type": "fte",       "label": "FTE Week" },
+  { "date": "2026-10-09",                      "type": "quarter",   "label": "End of Quarter 1" },
+  { "date": "2026-10-12",                      "type": "holiday",   "label": "Columbus Day (School Closed)" },
+  { "date": "2026-11-11",                      "type": "holiday",   "label": "Veterans' Day (School Closed)" },
+  { "date": "2026-11-23", "end": "2026-11-27", "type": "holiday",   "label": "Thanksgiving Break (School Closed)" },
+  { "date": "2026-12-18",                      "type": "quarter",   "label": "End of Quarter 2" },
+  { "date": "2026-12-21", "end": "2027-01-01", "type": "holiday",   "label": "Winter Break (School Closed)" },
+  { "date": "2027-01-04",                      "type": "workday",   "label": "Teacher Training (no school for students)" },
+  { "date": "2027-01-05",                      "type": "milestone", "label": "Classes Resume" },
+  { "date": "2027-01-18",                      "type": "holiday",   "label": "Martin Luther King Jr. Day Holiday (School Closed)" },
+  { "date": "2027-02-01", "end": "2027-02-05", "type": "fte",       "label": "FTE Week" },
+  { "date": "2027-02-15",                      "type": "holiday",   "label": "Presidents' Day Holiday (School Closed)" },
+  { "date": "2027-03-05",                      "type": "quarter",   "label": "End of Quarter 3" },
+  { "date": "2027-03-26", "end": "2027-04-05", "type": "holiday",   "label": "Spring Break (School Closed)" },
+  { "date": "2027-04-06",                      "type": "milestone", "label": "Classes Resume" },
+  { "date": "2027-05-28",                      "type": "milestone", "label": "Last Day of Classes, End of Quarter 4" },
+  { "date": "2027-05-28",                      "type": "quarter",   "label": "End of Quarter 4" },
+  { "date": "2027-05-31",                      "type": "holiday",   "label": "Memorial Day (School Closed)" },
+  { "date": "2027-06-01", "end": "2027-06-02", "type": "workday",   "label": "Teacher Planning (no school for students)" },
+  { "date": "2027-06-03", "end": "2027-06-30", "type": "other",     "label": "June: teachers available for Survey 4 data if needed" }
  ],
  "importFormat": {
-  "note": "Any JSON with an events array works. Each event: date (YYYY-MM-DD), optional end (YYYY-MM-DD), type (one of eventTypes ids or free text), label. Optional quarters array with id, label, start, end.",
-  "example": { "events": [ { "date": "2026-11-26", "end": "2026-11-27", "type": "holiday", "label": "Thanksgiving break" } ] }
+  "note": "Any JSON with an events array works. Each event: date (YYYY-MM-DD), optional end (YYYY-MM-DD), type (one of eventTypes ids or free text), label. Optional quarters array with id, label, start, end, and an optional week1 date.",
+  "example": { "week1": "2026-08-10", "events": [ { "date": "2026-11-23", "end": "2026-11-27", "type": "holiday", "label": "Thanksgiving Break" } ] }
  }
 }
