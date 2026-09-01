@@ -1,0 +1,27 @@
+{
+ "schema": "ocs-skins/1",
+ "note": "Brand palettes pulled from the live Optima lesson pages and Canvas home pages. Bethany may replace or extend these; teachers can also upload their own background image.",
+ "brand": {
+  "navy": "#0E1C42", "cyan": "#55C8E8", "gold": "#C7922C", "paper": "#F0F2F8", "card": "#FFFFFF", "ink": "#0E1C42", "muted": "#7A88A8", "line": "#E2E8F4", "success": "#34B76F", "danger": "#BF3F3F",
+  "fontHead": "'Nunito', 'Century Gothic', 'Arial Rounded MT Bold', Verdana, sans-serif",
+  "fontBody": "'Nunito', Verdana, sans-serif",
+  "fontSerif": "'Lora', Georgia, 'Times New Roman', serif",
+  "logo": "https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png",
+  "tagline": "An Education Experience Company"
+ },
+ "skins": [
+  { "id": "optima-navy",       "name": "Optima Navy",       "mood": "Default house style",                          "subjects": ["*"],                        "primary": "#0E1C42", "accent": "#55C8E8", "accent2": "#7FD8F0", "tint": "#EAF8FD", "gradient": "linear-gradient(90deg,#55C8E8,#7FD8F0,#1A8A7D)", "emoji": "🦉" },
+  { "id": "florida-historian", "name": "Florida Historian", "mood": "Grade 4 Social Studies, teal evidence trail",  "subjects": ["social-studies"],           "primary": "#0E1C42", "accent": "#1A8A7D", "accent2": "#55C8E8", "tint": "#E3F8ED", "gradient": "linear-gradient(90deg,#55C8E8,#7FD8F0,#1A8A7D)", "emoji": "🐊" },
+  { "id": "museum-gallery",    "name": "Museum Gallery",    "mood": "Grade 3 Social Studies, navy and gold trim",   "subjects": ["social-studies"],           "primary": "#0E1C42", "accent": "#D7A52A", "accent2": "#F1DB9E", "tint": "#FFF7DF", "gradient": "linear-gradient(90deg,#D7A52A,#F1DB9E,#C7922C)", "emoji": "🏛️" },
+  { "id": "storyteller-gold",  "name": "Storyteller Gold",  "mood": "ELA novels, warm gold and lavender",           "subjects": ["ela"],                      "primary": "#0E1C42", "accent": "#C7922C", "accent2": "#8B6FC0", "tint": "#FFF3DC", "gradient": "linear-gradient(90deg,#C7922C,#F5E6C8,#8B6FC0)", "emoji": "📖" },
+  { "id": "math-explorer",     "name": "Math Explorer",     "mood": "Dimensions Math, purple with green and yellow","subjects": ["math"],                     "primary": "#0E1C42", "accent": "#6B3FA0", "accent2": "#2DB87A", "tint": "#F0E8FF", "gradient": "linear-gradient(90deg,#6B3FA0,#F5C518,#2DB87A)", "emoji": "🧭" },
+  { "id": "ocean-blue",        "name": "Ocean Blue",        "mood": "Explorer's Vault, compass gold on deep blue",  "subjects": ["social-studies","science"], "primary": "#071E3D", "accent": "#D4943A", "accent2": "#55C8E8", "tint": "#EAF1FB", "gradient": "linear-gradient(90deg,#071E3D,#1A2D5A,#D4943A)", "emoji": "⚓" },
+  { "id": "forest-green",      "name": "Forest Green",      "mood": "Cartography Gallery, forest and amber",        "subjects": ["science","social-studies"], "primary": "#2D3A2E", "accent": "#D4943A", "accent2": "#7DC87A", "tint": "#EEF5EC", "gradient": "linear-gradient(90deg,#2D3A2E,#4A8A4A,#D4943A)", "emoji": "🌲" },
+  { "id": "sunrise-studio",    "name": "Sunrise Studio",    "mood": "Art and Music, paint-strip warmth",            "subjects": ["art","music"],              "primary": "#0E1C42", "accent": "#FF7043", "accent2": "#FFB74D", "tint": "#FFF3E0", "gradient": "linear-gradient(90deg,#FF7043,#FFB74D,#FFF176,#81C784,#4DD0E1,#7986CB,#CE93D8)", "emoji": "🎨" }
+ ],
+ "custom": {
+  "allowed": true,
+  "note": "Upload a background image (JPG or PNG, under 1 MB recommended). It is stored inside the plan file, never uploaded to a server.",
+  "specsPending": "Porter is confirming media specs for Arthur/VR; mp4 plays there, YouTube links do not."
+ }
+}

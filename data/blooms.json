@@ -1,0 +1,56 @@
+{
+ "schema": "ocs-blooms/1",
+ "note": "Plug-and-chug objective helper. No AI calls: a standard's text is matched to a Bloom's level by its leading verb, then poured into student-facing frames.",
+ "levels": [
+  { "id": "remember",   "order": 1, "label": "Remember",   "color": "#7A88A8", "prompt": "Recall facts and basic concepts",
+    "verbs": ["define","list","name","identify","recall","recognize","label","state","match","locate","memorize","repeat","record","select"],
+    "icanFrames": ["I can {verb} {object}.", "I can name {object} from memory.", "I can point to and label {object}."],
+    "eqFrames": ["What is {topic}?", "What are the key facts about {topic}?", "Who or what is involved in {topic}?"] },
+  { "id": "understand", "order": 2, "label": "Understand", "color": "#55C8E8", "prompt": "Explain ideas or concepts",
+    "verbs": ["explain","summarize","describe","classify","interpret","paraphrase","predict","infer","illustrate","discuss","report","restate","translate","outline","synthesize"],
+    "icanFrames": ["I can {verb} {object} in my own words.", "I can explain {object} to a partner.", "I can summarize {object} using key details."],
+    "eqFrames": ["Why does {topic} matter?", "How would you explain {topic} to someone younger?", "What does {topic} tell us?"] },
+  { "id": "apply",      "order": 3, "label": "Apply",      "color": "#34B76F", "prompt": "Use information in new situations",
+    "verbs": ["apply","use","solve","demonstrate","construct","complete","show","practice","calculate","implement","perform","read","write","compute","measure","sequence","model","conjugate"],
+    "icanFrames": ["I can {verb} {object}.", "I can use what I know to {verb} {object}.", "I can show how to {verb} {object} step by step."],
+    "eqFrames": ["How can we use {topic} today?", "Where else does {topic} show up?", "What steps help us with {topic}?"] },
+  { "id": "analyze",    "order": 4, "label": "Analyze",    "color": "#1A8A7D", "prompt": "Draw connections among ideas",
+    "verbs": ["analyze","compare","contrast","distinguish","examine","organize","categorize","differentiate","investigate","question","test","attribute","relate","determine"],
+    "icanFrames": ["I can {verb} {object} and explain the connections.", "I can break {object} into parts and show how they fit.", "I can compare {object} using evidence."],
+    "eqFrames": ["How are the parts of {topic} connected?", "What patterns do we notice in {topic}?", "What evidence supports our thinking about {topic}?"] },
+  { "id": "evaluate",   "order": 5, "label": "Evaluate",   "color": "#D4943A", "prompt": "Justify a stand or decision",
+    "verbs": ["evaluate","judge","justify","defend","critique","assess","argue","support","weigh","decide","recommend","prioritize","appraise","conclude"],
+    "icanFrames": ["I can {verb} {object} and give reasons.", "I can take a position on {object} and support it with evidence.", "I can decide which {object} is strongest and say why."],
+    "eqFrames": ["What makes {topic} good, fair, or true?", "Which matters most about {topic}, and why?", "How do we decide about {topic}?"] },
+  { "id": "create",     "order": 6, "label": "Create",     "color": "#8B6FC0", "prompt": "Produce new or original work",
+    "verbs": ["create","design","compose","plan","produce","build","invent","develop","formulate","author","generate","propose","assemble","draft"],
+    "icanFrames": ["I can {verb} {object}.", "I can design my own {object}.", "I can plan and produce {object} that shows what I learned."],
+    "eqFrames": ["What could we build or make with {topic}?", "How might {topic} look if we designed it ourselves?", "What new idea grows out of {topic}?"] }
+ ],
+ "studentPrefix": "I can",
+ "altPrefixes": ["Today I will", "Students will be able to", "By the end of this lesson I can"],
+ "cleanup": {
+  "stripPrefixes": ["Students will be able to", "Students will", "The student will be able to", "The student will", "Student will", "SWBAT", "Learners will"],
+  "replacements": [["utilize","use"], ["demonstrate an understanding of","show I understand"], ["in order to","to"], ["synthesize information related to","put together information about"], ["a variety of","different"]]
+ },
+ "eqStarters": ["Why does ___ matter?", "How does ___ shape ___?", "What makes ___ ___?", "How do we know ___?", "What would change if ___?", "What is the relationship between ___ and ___?"],
+ "weeklyLadder": {
+  "note": "A recurring skill can climb the ladder across a week: identify, then define, then apply. Used by the objective ladder button.",
+  "steps": ["remember", "understand", "apply", "analyze"]
+ },
+ "strands": {
+  "ela":  { "F": "Foundations", "R": "Reading", "C": "Communication", "V": "Vocabulary", "EE": "Expectations (K-12)" },
+  "math": { "NSO": "Number Sense and Operations", "FR": "Fractions", "AR": "Algebraic Reasoning", "M": "Measurement", "GR": "Geometric Reasoning", "DP": "Data Analysis and Probability", "MTR": "Mathematical Thinking and Reasoning" },
+  "social-studies": { "A": "American History", "G": "Geography", "E": "Economics", "CG": "Civics and Government", "FL": "Financial Literacy", "AA": "African American History", "HE": "Holocaust Education", "W": "World History" },
+  "science": { "N": "Nature of Science", "E": "Earth and Space", "P": "Physical Science", "L": "Life Science" }
+ },
+ "subjectFlavor": {
+  "social-studies": {
+   "routines": ["Enter the Scene", "Map Quest", "Source Study", "Timeline Thread", "Council Chamber", "Virtue Lens", "Historian's Notebook", "Art as Evidence", "Founding Words", "Trade and Choice"],
+   "virtues": ["honesty", "courtesy", "courage", "service", "perseverance", "self-governance", "responsibility"],
+   "thinkingMoves": ["Notice, Name, Narrate", "Sort, Compare, Explain", "Sequence, Connect, Explain", "Claim, Evidence, Reason"]
+  },
+  "ela": { "routines": ["Read Aloud", "Close Read", "Word Study", "Grammar Focus", "Fluency", "Narrative Writing", "Reading Response", "Check-In"] },
+  "math": { "routines": ["Number Talk", "Explore", "Guided Practice", "Independent Practice (Goblins)", "Concept Check", "Summative"] }
+ }
+}

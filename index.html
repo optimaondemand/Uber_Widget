@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Optima Curriculum Studio</title>
+<meta name="description" content="Pick a course, keep what works, swap the rest, and export a Canvas-ready course. Optima Academy Online's token-free course builder.">
+<link rel="icon" href="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png">
+<link rel="stylesheet" href="assets/css/studio.css">
+</head>
+<body>
+<div class="app" id="app">
+  <header class="topbar">
+    <a class="brand" href="#/home" title="Optima Curriculum Studio home" style="text-decoration:none;color:inherit;">
+      <img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima owl">
+      <div><div class="name">Optima Curriculum Studio</div><div class="sub">Optima Academy Online</div></div>
+    </a>
+    <div class="plan-name" id="plan-name-wrap">
+      <input id="plan-name" type="text" placeholder="Untitled course plan" aria-label="Plan name" disabled>
+      <span class="save-state" id="save-state"></span>
+    </div>
+    <div class="actions">
+      <button class="btn light sm" id="btn-undo" title="Undo (Ctrl+Z)">↶ Undo</button>
+      <button class="btn light sm" id="btn-open" title="Open a saved .ocs.json plan file">📂 Open plan</button>
+      <button class="btn light sm" id="btn-save" title="Download this plan as a file">💾 Save plan file</button>
+      <button class="btn accent sm" id="btn-export" title="Go to exports">⬇ Export</button>
+    </div>
+  </header>
+  <div class="body">
+    <nav class="rail" id="rail" aria-label="Steps"></nav>
+    <main class="stage" id="stage"></main>
+  </div>
+</div>
+<div class="toast-wrap" id="toasts" aria-live="polite"></div>
+<div id="modal-root"></div>
+<input type="file" id="file-plan" accept=".json,application/json" hidden>
+<input type="file" id="file-imscc" accept=".imscc,.zip" hidden>
+<input type="file" id="file-calendar" accept=".json,application/json" hidden>
+<input type="file" id="file-bg" accept="image/*" hidden>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/state.js"></script>
+<script src="assets/js/generate.js"></script>
+<script src="assets/js/imscc.js"></script>
+<script src="assets/js/ui-core.js"></script>
+<script src="assets/js/ui-course.js"></script>
+<script src="assets/js/ui-standards.js"></script>
+<script src="assets/js/ui-build.js"></script>
+<script src="assets/js/ui-enrich.js"></script>
+<script src="assets/js/ui-style.js"></script>
+<script src="assets/js/ui-export.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+{
+ "app" : {
+  "name" : "Optima Curriculum Studio",
+  "repo" : "https://github.com/optimaondemand/Uber_Widget"
+ },
+ "builders" : {
+  "courseHome" : "https://optimaondemand.github.io/teacher-homepages/#course",
+  "k2Lesson" : "https://bbirchum1.github.io/k-2-lesson-builder/",
+  "lessonPage" : "https://optimaondemand.github.io/teacher-homepages/lesson.html",
+  "studyPlanner" : "https://optimaondemand.github.io/optima-widgets/study-planner.html"
+ },
+ "courses" : [
+  {
+   "accent" : "florida-historian",
+   "counts" : {
+    "assessments" : 13,
+    "flStandards" : 49,
+    "lessons" : 62,
+    "missingPages" : 0,
+    "modules" : 14,
+    "pages" : 5,
+    "quizzes" : 13,
+    "videosReady" : 60,
+    "videosTotal" : 312
+   },
+   "file" : "data/courses/g4-social-studies.json",
+   "grade" : "4",
+   "id" : "g4-social-studies",
+   "pagesBase" : "https://optimaondemand.github.io/optima-4th-social-studies/",
+   "repo" : "optima-4th-social-studies",
+   "rhythm" : "unit-lessons",
+   "shortTitle" : "Social Studies",
+   "standardsBundle" : "social-studies__4",
+   "subject" : "social-studies",
+   "subjectLabel" : "Social Studies",
+   "title" : "4th Grade Social Studies On-Demand",
+   "videoManifestUrl" : "https://raw.githubusercontent.com/optimaondemand/optima-4th-social-studies/main/video-manifest.json"
+  },
+  {
+   "accent" : "storyteller-gold",
+   "counts" : {
+    "assessments" : 5,
+    "flStandards" : 24,
+    "lessons" : 155,
+    "missingPages" : 0,
+    "modules" : 7,
+    "pages" : 4,
+    "quizzes" : 32,
+    "videosReady" : 12,
+    "videosTotal" : 155
+   },
+   "file" : "data/courses/g4-ela.json",
+   "grade" : "4",
+   "id" : "g4-ela",
+   "pagesBase" : "https://optimaondemand.github.io/optima-4th-ela/",
+   "repo" : "optima-4th-ela",
+   "rhythm" : "weekly",
+   "shortTitle" : "English Language Arts",
+   "standardsBundle" : "english-language-arts__4",
+   "subject" : "ela",
+   "subjectLabel" : "English Language Arts",
+   "title" : "4th Grade ELA On-Demand",
+   "videoManifestUrl" : "https://raw.githubusercontent.com/optimaondemand/optima-4th-ela/main/video-manifest.json"
+  },
+  {
+   "accent" : "math-explorer",
+   "counts" : {
+    "assessments" : 17,
+    "flStandards" : 41,
+    "lessons" : 97,
+    "missingPages" : 30,
+    "modules" : 18,
+    "pages" : 6,
+    "quizzes" : 0,
+    "videosReady" : 2,
+    "videosTotal" : 60
+   },
+   "file" : "data/courses/g4-math.json",
+   "grade" : "4",
+   "id" : "g4-math",
+   "pagesBase" : "https://optimaondemand.github.io/optima-4th-math/",
+   "repo" : "optima-4th-math",
+   "rhythm" : "unit-lessons",
+   "shortTitle" : "Mathematics",
+   "standardsBundle" : "mathematics__4",
+   "subject" : "math",
+   "subjectLabel" : "Mathematics",
+   "title" : "4th Grade Math On-Demand",
+   "videoManifestUrl" : "https://raw.githubusercontent.com/optimaondemand/optima-4th-math/main/video-manifest.json"
+  },
+  {
+   "accent" : "storyteller-gold",
+   "counts" : {
+    "assessments" : 0,
+    "flStandards" : 24,
+    "lessons" : 149,
+    "missingPages" : 0,
+    "modules" : 5,
+    "pages" : 4,
+    "quizzes" : 29,
+    "videosReady" : 11,
+    "videosTotal" : 144
+   },
+   "file" : "data/courses/g3-ela.json",
+   "grade" : "3",
+   "id" : "g3-ela",
+   "pagesBase" : "https://optimaondemand.github.io/optima-3rd-ela/",
+   "repo" : "optima-3rd-ela",
+   "rhythm" : "weekly",
+   "shortTitle" : "English Language Arts",
+   "standardsBundle" : "english-language-arts__3",
+   "subject" : "ela",
+   "subjectLabel" : "English Language Arts",
+   "title" : "3rd Grade ELA On-Demand",
+   "videoManifestUrl" : "https://raw.githubusercontent.com/optimaondemand/optima-3rd-ela/main/video-manifest.json"
+  },
+  {
+   "accent" : "math-explorer",
+   "counts" : {
+    "assessments" : 15,
+    "flStandards" : 37,
+    "lessons" : 97,
+    "missingPages" : 16,
+    "modules" : 16,
+    "pages" : 6,
+    "quizzes" : 0,
+    "videosReady" : 3,
+    "videosTotal" : 73
+   },
+   "file" : "data/courses/g3-math.json",
+   "grade" : "3",
+   "id" : "g3-math",
+   "pagesBase" : "https://optimaondemand.github.io/optima-3rd-math/",
+   "repo" : "optima-3rd-math",
+   "rhythm" : "unit-lessons",
+   "shortTitle" : "Mathematics",
+   "standardsBundle" : "mathematics__3",
+   "subject" : "math",
+   "subjectLabel" : "Mathematics",
+   "title" : "3rd Grade Math On-Demand",
+   "videoManifestUrl" : "https://raw.githubusercontent.com/optimaondemand/optima-3rd-math/main/video-manifest.json"
+  },
+  {
+   "accent" : "museum-gallery",
+   "counts" : {
+    "assessments" : 3,
+    "flStandards" : 8,
+    "lessons" : 16,
+    "missingPages" : 0,
+    "modules" : 4,
+    "pages" : 4,
+    "quizzes" : 3,
+    "videosReady" : 64,
+    "videosTotal" : 92
+   },
+   "file" : "data/courses/g3-social-studies.json",
+   "grade" : "3",
+   "id" : "g3-social-studies",
+   "pagesBase" : "https://optimaondemand.github.io/optima-3rd-social-studies/",
+   "repo" : "optima-3rd-social-studies",
+   "rhythm" : "unit-lessons",
+   "shortTitle" : "Social Studies",
+   "standardsBundle" : "social-studies__3",
+   "subject" : "social-studies",
+   "subjectLabel" : "Social Studies",
+   "title" : "3rd Grade Social Studies On-Demand",
+   "videoManifestUrl" : "https://raw.githubusercontent.com/optimaondemand/optima-3rd-social-studies/main/video-manifest.json"
+  }
+ ],
+ "generated" : "2026-09-01",
+ "libraries" : {
+  "art" : {
+   "count" : 529,
+   "file" : "data/libraries/art.json",
+   "live" : "https://optimaondemand.github.io/optima-widgets/optima-art/art.json",
+   "page" : "https://optimaondemand.github.io/optima-widgets/optima-art/art-reference-library.html"
+  },
+  "literature" : {
+   "count" : 355,
+   "file" : "data/libraries/literature.json",
+   "live" : "https://optimaondemand.github.io/optima-widgets/optima-literature/library.json",
+   "page" : "https://optimaondemand.github.io/optima-widgets/optima-literature/ela-reference-library.html"
+  },
+  "music" : {
+   "count" : 155,
+   "file" : "data/libraries/music.json",
+   "live" : "https://optimaondemand.github.io/optima-widgets/optima-music/music.json",
+   "page" : "https://optimaondemand.github.io/optima-widgets/optima-music/music-reference-library.html"
+  }
+ },
+ "schema" : "ocs-catalog/1",
+ "standards" : {
+  "browser" : "https://optimaondemand.github.io/optima-standards-browser/",
+  "bundles" : {
+   "liveBase" : "https://optimaondemand.github.io/optima-standards-browser/bundles/",
+   "localBase" : "data/standards/"
+  },
+  "manifest" : {
+   "file" : "data/standards/manifest.json",
+   "live" : "https://optimaondemand.github.io/optima-standards-browser/bundles-manifest.json"
+  }
+ }
+}

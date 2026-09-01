@@ -1,0 +1,27 @@
+{
+ "schema": "ocs-calendar/1",
+ "schoolYear": "2026-27",
+ "status": "partial",
+ "source": "Only dates confirmed in the 2026-09-01 planning meeting are filled in. Caitlin's school calendar will replace this file; import it from the Calendar panel or drop a new calendar.json here.",
+ "quarters": [
+  { "id": "Q1", "label": "Quarter 1", "start": null, "end": "2026-10-09" },
+  { "id": "Q2", "label": "Quarter 2", "start": null, "end": null },
+  { "id": "Q3", "label": "Quarter 3", "start": null, "end": null },
+  { "id": "Q4", "label": "Quarter 4", "start": null, "end": null }
+ ],
+ "eventTypes": [
+  { "id": "holiday",   "label": "Holiday / no school",  "color": "#BF3F3F" },
+  { "id": "iready",    "label": "i-Ready testing day",  "color": "#D4943A" },
+  { "id": "quarter",   "label": "Quarter boundary",     "color": "#1A8A7D" },
+  { "id": "workday",   "label": "Teacher workday",      "color": "#7A88A8" },
+  { "id": "spotlight", "label": "Spotlight / VR day",   "color": "#8B6FC0" },
+  { "id": "other",     "label": "Other",                "color": "#55C8E8" }
+ ],
+ "events": [
+  { "date": "2026-10-09", "type": "quarter", "label": "End of Quarter 1 (prototype deadline)" }
+ ],
+ "importFormat": {
+  "note": "Any JSON with an events array works. Each event: date (YYYY-MM-DD), optional end (YYYY-MM-DD), type (one of eventTypes ids or free text), label. Optional quarters array with id, label, start, end.",
+  "example": { "events": [ { "date": "2026-11-26", "end": "2026-11-27", "type": "holiday", "label": "Thanksgiving break" } ] }
+ }
+}

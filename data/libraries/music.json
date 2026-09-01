@@ -1,0 +1,7407 @@
+{
+ "conceptVocabulary" : {
+  "ela.classical-myth" : {
+   "discipline" : "English Language Arts",
+   "label" : "Classical myth",
+   "note" : "Greek and Roman myth as subject matter, shared with the art library.",
+   "shared_with_art" : true
+  },
+  "ela.narrative-in-music" : {
+   "discipline" : "English Language Arts",
+   "label" : "Story told without words",
+   "note" : "Programme music: narrative carried by instruments alone.",
+   "shared_with_art" : false
+  },
+  "ela.poetry-set-to-music" : {
+   "discipline" : "English Language Arts",
+   "label" : "Poetry set to music",
+   "note" : "A poem that became a song. Joins the ELA catalogue by author.",
+   "shared_with_art" : false
+  },
+  "history.ancient-greece" : {
+   "discipline" : "History",
+   "label" : "Ancient Greece",
+   "note" : "Greek musical thought, where the Western account of scale and ratio starts.",
+   "shared_with_art" : false
+  },
+  "history.civil-rights" : {
+   "discipline" : "History",
+   "label" : "Civil rights and protest",
+   "note" : "Music used as protest and as an anthem.",
+   "shared_with_art" : false
+  },
+  "history.harlem-renaissance" : {
+   "discipline" : "History",
+   "label" : "The Harlem Renaissance",
+   "note" : "Joins the art library's Harlem Renaissance works and the ELA catalogue's Harlem Renaissance writers.",
+   "shared_with_art" : false
+  },
+  "math.proportion" : {
+   "discipline" : "Mathematics",
+   "label" : "Proportion and ratio",
+   "note" : "Intervals, tuning and time signatures are ratios. The same idea the art library files under canons of proportion.",
+   "shared_with_art" : true
+  },
+  "science.acoustics" : {
+   "discipline" : "Science",
+   "label" : "Acoustics and how sound works",
+   "note" : "Vibration, overtones and resonance: why an instrument sounds the way it does.",
+   "shared_with_art" : false
+  },
+  "science.anatomy" : {
+   "discipline" : "Science",
+   "label" : "Human anatomy",
+   "note" : "Breath, embouchure and the body as the instrument.",
+   "shared_with_art" : true
+  },
+  "science.perception" : {
+   "discipline" : "Science",
+   "label" : "Perception and the brain",
+   "note" : "How listeners feel a beat and attach emotion to sound.",
+   "shared_with_art" : false
+  }
+ },
+ "courses" : [
+  {
+   "band" : "Elementary",
+   "canvas" : null,
+   "code" : "5013060",
+   "grade" : "K",
+   "has_build" : false,
+   "id" : "music-k",
+   "name" : "Music Grade K"
+  },
+  {
+   "band" : "Elementary",
+   "canvas" : null,
+   "code" : "5013070",
+   "grade" : "1",
+   "has_build" : false,
+   "id" : "music-1",
+   "name" : "Music Grade 1"
+  },
+  {
+   "band" : "Elementary",
+   "canvas" : null,
+   "code" : "5013080",
+   "grade" : "2",
+   "has_build" : false,
+   "id" : "music-2",
+   "name" : "Music Grade 2"
+  },
+  {
+   "band" : "Elementary",
+   "canvas" : 14,
+   "code" : "5013090",
+   "grade" : "3",
+   "has_build" : true,
+   "id" : "mi-1",
+   "name" : "Music Intermediate I"
+  },
+  {
+   "band" : "Elementary",
+   "canvas" : 15,
+   "code" : "5013100",
+   "grade" : "4",
+   "has_build" : true,
+   "id" : "mi-2",
+   "name" : "Music Intermediate II"
+  },
+  {
+   "band" : "Elementary",
+   "canvas" : 16,
+   "code" : "5013110",
+   "grade" : "5",
+   "has_build" : true,
+   "id" : "mi-3",
+   "name" : "Music Intermediate III"
+  },
+  {
+   "band" : "Middle",
+   "canvas" : null,
+   "code" : "1300000",
+   "grade" : "6-8",
+   "has_build" : true,
+   "id" : "mt-1",
+   "name" : "M/J Music Theory 1"
+  },
+  {
+   "band" : "Middle",
+   "canvas" : 12,
+   "code" : "1300010",
+   "grade" : "6-8",
+   "has_build" : true,
+   "id" : "mt-2",
+   "name" : "M/J Music Theory 2"
+  },
+  {
+   "band" : "High",
+   "canvas" : 13,
+   "code" : "1300340",
+   "grade" : "9-12",
+   "has_build" : true,
+   "id" : "motw",
+   "name" : "Music of the World"
+  }
+ ],
+ "labels" : {
+  "music.composer" : {
+   "armstrong" : "Louis Armstrong",
+   "bach" : "Johann Sebastian Bach",
+   "beethoven" : "Ludwig van Beethoven",
+   "guido" : "Guido d'Arezzo",
+   "morricone" : "Ennio Morricone",
+   "mozart" : "Wolfgang Amadeus Mozart",
+   "piazzolla" : "Astor Piazzolla",
+   "presley" : "Elvis Presley",
+   "prokofiev" : "Sergei Prokofiev",
+   "schubert" : "Franz Schubert",
+   "sousa" : "John Philip Sousa",
+   "vivaldi" : "Antonio Vivaldi"
+  },
+  "music.culture" : {
+   "andes" : "Andes and Peru",
+   "appalachia" : "Appalachia and the American South",
+   "brazil" : "Brazil",
+   "egypt-arab" : "Egypt and the Arab world",
+   "india" : "India",
+   "indonesia" : "Indonesia",
+   "jamaica" : "Jamaica",
+   "korea" : "Korea",
+   "mexico" : "Mexico",
+   "native-america" : "Native America",
+   "turkey" : "Turkey",
+   "west-africa" : "West Africa"
+  },
+  "music.element" : {
+   "dynamics" : "Dynamics",
+   "elements" : "Elements of music (overview)",
+   "expression" : "Expression and mood",
+   "form" : "Form and structure",
+   "harmony" : "Harmony",
+   "intervals" : "Intervals",
+   "melody" : "Melody",
+   "meter" : "Meter and time signature",
+   "notation" : "Notation and reading music",
+   "pitch" : "Pitch",
+   "rhythm" : "Rhythm and beat",
+   "scales" : "Scales",
+   "tempo" : "Tempo",
+   "texture" : "Texture",
+   "timbre" : "Timbre and tone"
+  },
+  "music.era" : {
+   "ancient" : "Ancient world",
+   "baroque" : "Baroque",
+   "classical-period" : "Classical period",
+   "medieval" : "Medieval",
+   "modern" : "20th century and modern",
+   "renaissance" : "Renaissance",
+   "romantic" : "Romantic"
+  },
+  "music.genre" : {
+   "arabic" : "Arabic and Middle Eastern",
+   "blues" : "Blues",
+   "classical" : "Classical and art music",
+   "country" : "Country and bluegrass",
+   "folk" : "Folk and traditional",
+   "gamelan" : "Gamelan and Indonesian",
+   "gospel" : "Gospel and spiritual",
+   "indian-classical" : "Indian classical",
+   "indigenous" : "Indigenous and First Nations",
+   "jazz" : "Jazz",
+   "kpop" : "K-Pop",
+   "latin" : "Latin American popular",
+   "musical-theatre" : "Musical theatre and film",
+   "pop" : "Pop",
+   "reggae" : "Reggae",
+   "rock" : "Rock and roll",
+   "soul-rnb" : "Soul and R&B"
+  },
+  "music.instrument" : {
+   "bassoon" : "Bassoon",
+   "cello" : "Cello",
+   "clarinet" : "Clarinet",
+   "double-bass" : "Double bass",
+   "flute" : "Flute",
+   "french-horn" : "French horn",
+   "gong" : "Gong and metallophone",
+   "guitar" : "Guitar",
+   "harp" : "Harp",
+   "oboe" : "Oboe",
+   "organ" : "Organ",
+   "oud" : "Oud",
+   "percussion" : "Percussion",
+   "piano" : "Piano",
+   "qanun" : "Qanun",
+   "recorder" : "Recorder",
+   "saxophone" : "Saxophone",
+   "sitar" : "Sitar",
+   "tabla" : "Tabla",
+   "trombone" : "Trombone",
+   "trumpet" : "Trumpet",
+   "tuba" : "Tuba",
+   "viola" : "Viola",
+   "violin" : "Violin",
+   "voice" : "Voice and choir"
+  },
+  "music.skill" : {
+   "appreciation" : "Listening and appreciation",
+   "conducting" : "Conducting",
+   "counting" : "Counting rhythms",
+   "ear-training" : "Ear training",
+   "sight-reading" : "Reading notation",
+   "singing" : "Singing"
+  }
+ },
+ "libraryPage" : "https://optimaondemand.github.io/optima-widgets/optima-music/music-reference-library.html",
+ "live" : "https://optimaondemand.github.io/optima-widgets/optima-music/music.json",
+ "schema" : "ocs-music-slim/1",
+ "snapshot" : "2026-09-01",
+ "sourceGenerated" : "2026-09-01",
+ "videos" : [
+  {
+   "channel" : "TED-Ed",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/-1aAunaw1GA",
+   "id" : "-1aAunaw1GA",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 5,
+     "page" : "Music Intermediate II — Lessons 5.01–5.04"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "ancient",
+     "l" : "Ancient world",
+     "s" : "music.era"
+    },
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    },
+    {
+     "c" : "history.ancient-greece",
+     "d" : "History",
+     "l" : "Ancient Greece",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/-1aAunaw1GA/hqdefault.jpg",
+   "title" : "Music and creativity in Ancient Greece - Tim Hansen",
+   "url" : "https://www.youtube.com/watch?v=-1aAunaw1GA"
+  },
+  {
+   "channel" : "Nicolò Perlari",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {
+    "ela" : [
+     {
+      "author" : "Johann Wolfgang von Goethe",
+      "grade" : null,
+      "id" : "clt-faust-part-1",
+      "title" : "Faust — Part 1",
+      "via" : "Goethe"
+     }
+    ]
+   },
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/-1yA4ak0SqY",
+   "id" : "-1yA4ak0SqY",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 10,
+     "page" : "Music Intermediate I — Module 10: Reading and Singing Music"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 10,
+     "page" : "Music Intermediate II — Lessons 10.01–10.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 10,
+     "page" : "Music Intermediate III: Lesson 10.1 to 10.4 Reading and Singing Music"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "medieval",
+     "l" : "Medieval",
+     "s" : "music.era"
+    },
+    {
+     "c" : "guido",
+     "l" : "Guido d'Arezzo",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "notation",
+     "l" : "Notation and reading music",
+     "s" : "music.element"
+    },
+    {
+     "c" : "ela.poetry-set-to-music",
+     "d" : "English Language Arts",
+     "l" : "Poetry set to music",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/-1yA4ak0SqY/hqdefault.jpg",
+   "title" : "Guido D'Arezzo, Ut queant laxis. Score in modern notation",
+   "url" : "https://www.youtube.com/watch?v=-1yA4ak0SqY"
+  },
+  {
+   "channel" : "Dave Conservatoire",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/-OX1FyfZHWM",
+   "id" : "-OX1FyfZHWM",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 5,
+     "page" : "Music Intermediate I — Lessons 5.01–5.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 5,
+     "page" : "Music Intermediate II — Lessons 5.01–5.04"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 5,
+     "page" : "Music Intermediate III: Lesson 5.1 to 5.4 Harmony"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/-OX1FyfZHWM/hqdefault.jpg",
+   "title" : "What is Harmony?",
+   "url" : "https://www.youtube.com/watch?v=-OX1FyfZHWM"
+  },
+  {
+   "channel" : "The Instrument Atlas",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/0CUtnav-yF4",
+   "id" : "0CUtnav-yF4",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 26,
+     "page" : "Music Intermediate I — Lessons 26.01–26.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : null,
+     "page" : "Music Intermediate II — Source Harvest (video + content map)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 26,
+     "page" : "Music Intermediate II — Lessons 26.01–26.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : null,
+     "page" : "2-dot-1-expressive-qualities.html"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 26,
+     "page" : "Music Intermediate III: Lesson 26.1 to 26.2 The Cello and Double Bass"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "double-bass",
+     "l" : "Double bass",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/0CUtnav-yF4/hqdefault.jpg",
+   "title" : "The Entire History of the Double Bass",
+   "url" : "https://www.youtube.com/watch?v=0CUtnav-yF4"
+  },
+  {
+   "channel" : "Ms. Widya - Topic",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/0SdVJfaYP7I",
+   "id" : "0SdVJfaYP7I",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 10,
+     "page" : "Music of the World - Lesson 10.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "indian-classical",
+     "l" : "Indian classical",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "india",
+     "l" : "India",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "sitar",
+     "l" : "Sitar",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/0SdVJfaYP7I/hqdefault.jpg",
+   "title" : "Traditional, R. Shankar: Raga Jogeshwari: Alap",
+   "url" : "https://www.youtube.com/watch?v=0SdVJfaYP7I"
+  },
+  {
+   "channel" : "Saregama Carnatic Classical",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/0tubv1OKDjg",
+   "id" : "0tubv1OKDjg",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 10,
+     "page" : "Music of the World - Lesson 10.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "indian-classical",
+     "l" : "Indian classical",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "india",
+     "l" : "India",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/0tubv1OKDjg/hqdefault.jpg",
+   "title" : "Vishnu Sahasranamam - M. S. Subbulakshmi | Carnatic Music | M. S. Subbulakshmi Devotional Song",
+   "url" : "https://www.youtube.com/watch?v=0tubv1OKDjg"
+  },
+  {
+   "channel" : "Vicente Fernández - Topic",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/1JVzMwv3YpQ",
+   "id" : "1JVzMwv3YpQ",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 13,
+     "page" : "Music of the World - Lesson 13.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "mexico",
+     "l" : "Mexico",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/1JVzMwv3YpQ/hqdefault.jpg",
+   "title" : "Volver, Volver",
+   "url" : "https://www.youtube.com/watch?v=1JVzMwv3YpQ"
+  },
+  {
+   "channel" : "Colorfully Playing Music",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/1VUvkPkAkjc",
+   "id" : "1VUvkPkAkjc",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 22,
+     "page" : "Music Intermediate I — Lessons 22.01–22.03"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 23,
+     "page" : "Music Intermediate I — Lesson 23.1"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 22,
+     "page" : "Music Intermediate II — Lessons 22.01–22.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 23,
+     "page" : "Music Intermediate II — Lessons 23.01–23.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 22,
+     "page" : "Music Intermediate III: Lesson 22 Conducting, Marking the Beat"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 23,
+     "page" : "Music Intermediate III: Lesson 23 Practice Note Values and Beating"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "meter",
+     "l" : "Meter and time signature",
+     "s" : "music.element"
+    },
+    {
+     "c" : "tempo",
+     "l" : "Tempo",
+     "s" : "music.element"
+    },
+    {
+     "c" : "conducting",
+     "l" : "Conducting",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/1VUvkPkAkjc/hqdefault.jpg",
+   "title" : "Conducting Patterns for Music Practice (with Meters 2/4, 3/4, and 4/4)",
+   "url" : "https://www.youtube.com/watch?v=1VUvkPkAkjc"
+  },
+  {
+   "channel" : "Black History in Two Minutes or so",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {
+    "art" : [
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_9a44119fc364",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546238",
+      "title" : "Barcelona",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_e4e8d3d02a82",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546240",
+      "title" : "Bravado",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Jacob Lawrence",
+      "id" : "aw_e57dc1553a30",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.20869118",
+      "title" : "Confrontation at the Bridge",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Jacob Lawrence",
+      "id" : "aw_adf694bf7d0b",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.21795839",
+      "title" : "Going to Work",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Douglas, Aaron, 1899-1979 ; Measurements: 10 x 12\"",
+      "id" : "aw_ceee2cc0d7d6",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546250",
+      "title" : "Haystacks",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_8d5fb9934adc",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.14590767",
+      "title" : "Into Bondage",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Gwendolyn Knight Lawrence ; Material: Lithograph; Measurements: 22 x 30in.",
+      "id" : "aw_7a5a055454c2",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.20868811",
+      "title" : "Mother and Child: Lullaby",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     }
+    ],
+    "ela" : [
+     {
+      "author" : "Langston Hughes",
+      "grade" : "5",
+      "id" : "5-dreams",
+      "title" : "Dreams",
+      "via" : "Langston Hughes"
+     },
+     {
+      "author" : "Frederick Douglass",
+      "grade" : "11",
+      "id" : "11-narrative-of-the-life-of-frederick-douglass",
+      "title" : "Narrative of the Life of Frederick Douglass",
+      "via" : "Aaron Douglas"
+     },
+     {
+      "author" : null,
+      "grade" : "12",
+      "id" : "12-poetry",
+      "title" : "Poetry",
+      "via" : "Langston Hughes"
+     },
+     {
+      "author" : "Zora Neale Hurston",
+      "grade" : "10",
+      "id" : "10-their-eyes-were-watching-god",
+      "title" : "Their Eyes Were Watching God",
+      "via" : "Zora Neale Hurston"
+     }
+    ]
+   },
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/1eRNRzyX3ac",
+   "id" : "1eRNRzyX3ac",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 13,
+     "page" : "Music Intermediate I — Module 13: Louis Armstrong and Jazz"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 13,
+     "page" : "Music Intermediate II — Lessons 13.01–13.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 13,
+     "page" : "Music Intermediate III: Lesson Louis Armstrong and Jazz"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "jazz",
+     "l" : "Jazz",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "history.harlem-renaissance",
+     "d" : "History",
+     "l" : "The Harlem Renaissance",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/1eRNRzyX3ac/hqdefault.jpg",
+   "title" : "The Birth of Jazz",
+   "url" : "https://www.youtube.com/watch?v=1eRNRzyX3ac"
+  },
+  {
+   "channel" : "William Zhang, Young Pianist & Composer",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/1gRxxt4fYO4",
+   "id" : "1gRxxt4fYO4",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 11,
+     "page" : "Music Intermediate II — Lessons 11.01–11.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "classical-period",
+     "l" : "Classical period",
+     "s" : "music.era"
+    },
+    {
+     "c" : "mozart",
+     "l" : "Wolfgang Amadeus Mozart",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "piano",
+     "l" : "Piano",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/1gRxxt4fYO4/hqdefault.jpg",
+   "title" : "Mozart Piano Sonata No. 16 in C Major K. 545 1st movement by William Zhang (6 Years Old)",
+   "url" : "https://www.youtube.com/watch?v=1gRxxt4fYO4"
+  },
+  {
+   "channel" : "MusicProfessor",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/1km9RJrB7Zk",
+   "id" : "1km9RJrB7Zk",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 28,
+     "page" : "Music Intermediate I — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 28,
+     "page" : "Music Intermediate II — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 28,
+     "page" : "Music Intermediate III: Woodwinds II, Clarinet and Bassoon"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "bassoon",
+     "l" : "Bassoon",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/1km9RJrB7Zk/hqdefault.jpg",
+   "title" : "Explore the Beautiful Sounds of the Bassoon - Andante Sostenuto Etude",
+   "url" : "https://www.youtube.com/watch?v=1km9RJrB7Zk"
+  },
+  {
+   "channel" : "ElvisPresleyVEVO",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/23zLefwiii4",
+   "id" : "23zLefwiii4",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 7,
+     "page" : "Music Intermediate I — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 7,
+     "page" : "Music Intermediate II — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 7,
+     "page" : "Music Intermediate III: Lesson 7.1 to 7.2 Music History and Elvis Presley"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "presley",
+     "l" : "Elvis Presley",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/23zLefwiii4/hqdefault.jpg",
+   "title" : "Elvis Presley - All Shook Up (Official Audio)",
+   "url" : "https://www.youtube.com/watch?v=23zLefwiii4"
+  },
+  {
+   "channel" : "The Ed Sullivan Show",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {
+    "art" : [
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_9a44119fc364",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546238",
+      "title" : "Barcelona",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_e4e8d3d02a82",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546240",
+      "title" : "Bravado",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Jacob Lawrence",
+      "id" : "aw_e57dc1553a30",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.20869118",
+      "title" : "Confrontation at the Bridge",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Jacob Lawrence",
+      "id" : "aw_adf694bf7d0b",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.21795839",
+      "title" : "Going to Work",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Douglas, Aaron, 1899-1979 ; Measurements: 10 x 12\"",
+      "id" : "aw_ceee2cc0d7d6",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546250",
+      "title" : "Haystacks",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_8d5fb9934adc",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.14590767",
+      "title" : "Into Bondage",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Gwendolyn Knight Lawrence ; Material: Lithograph; Measurements: 22 x 30in.",
+      "id" : "aw_7a5a055454c2",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.20868811",
+      "title" : "Mother and Child: Lullaby",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     }
+    ],
+    "ela" : [
+     {
+      "author" : "Langston Hughes",
+      "grade" : "5",
+      "id" : "5-dreams",
+      "title" : "Dreams",
+      "via" : "Langston Hughes"
+     },
+     {
+      "author" : "Frederick Douglass",
+      "grade" : "11",
+      "id" : "11-narrative-of-the-life-of-frederick-douglass",
+      "title" : "Narrative of the Life of Frederick Douglass",
+      "via" : "Aaron Douglas"
+     },
+     {
+      "author" : null,
+      "grade" : "12",
+      "id" : "12-poetry",
+      "title" : "Poetry",
+      "via" : "Langston Hughes"
+     },
+     {
+      "author" : "Zora Neale Hurston",
+      "grade" : "10",
+      "id" : "10-their-eyes-were-watching-god",
+      "title" : "Their Eyes Were Watching God",
+      "via" : "Zora Neale Hurston"
+     }
+    ]
+   },
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/2eUzdTF3P2M",
+   "id" : "2eUzdTF3P2M",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 13,
+     "page" : "Music Intermediate I — Module 13: Louis Armstrong and Jazz"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 13,
+     "page" : "Music Intermediate II — Lessons 13.01–13.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 18,
+     "page" : "Music Intermediate II — Lessons 18.01–18.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 13,
+     "page" : "Music Intermediate III: Lesson Louis Armstrong and Jazz"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "armstrong",
+     "l" : "Louis Armstrong",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "history.harlem-renaissance",
+     "d" : "History",
+     "l" : "The Harlem Renaissance",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/2eUzdTF3P2M/hqdefault.jpg",
+   "title" : "Louis Armstrong \"When The Saints Go Marching In\" on The Ed Sullivan Show",
+   "url" : "https://www.youtube.com/watch?v=2eUzdTF3P2M"
+  },
+  {
+   "channel" : "Musica Universalis",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {
+    "ela" : [
+     {
+      "author" : "Johann Wolfgang von Goethe",
+      "grade" : null,
+      "id" : "clt-faust-part-1",
+      "title" : "Faust — Part 1",
+      "via" : "Goethe"
+     }
+    ]
+   },
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/3itgsm-vUAE",
+   "id" : "3itgsm-vUAE",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 16,
+     "page" : "Music Intermediate I — Lessons 16.01–16.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 16,
+     "page" : "Music Intermediate II — Lessons 16.01–16.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 16,
+     "page" : "Music Intermediate III: Lesson 16 Beethoven and the Ode to Joy"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "ela.poetry-set-to-music",
+     "d" : "English Language Arts",
+     "l" : "Poetry set to music",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/3itgsm-vUAE/hqdefault.jpg",
+   "title" : "The Origin of Ode to Joy",
+   "url" : "https://www.youtube.com/watch?v=3itgsm-vUAE"
+  },
+  {
+   "channel" : "Joshua Witrado | Band Director Resources",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/4S9awPx2ho4",
+   "id" : "4S9awPx2ho4",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 19,
+     "page" : "Music Intermediate I — Lessons 19.01–19.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 12,
+     "page" : "Music Intermediate II — Lessons 12.01–12.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 19,
+     "page" : "Music Intermediate II — Lessons 19.01–19.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 19,
+     "page" : "Music Intermediate III: Lesson 19 Music Reading Review"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "notation",
+     "l" : "Notation and reading music",
+     "s" : "music.element"
+    },
+    {
+     "c" : "sight-reading",
+     "l" : "Reading notation",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/4S9awPx2ho4/hqdefault.jpg",
+   "title" : "How to Read Music Notes on the Treble Clef Staff",
+   "url" : "https://www.youtube.com/watch?v=4S9awPx2ho4"
+  },
+  {
+   "channel" : "Project Nightfall",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/4tw1TfZd3hc",
+   "id" : "4tw1TfZd3hc",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 21,
+     "page" : "Music Intermediate I — Lessons 21.01–21.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 21,
+     "page" : "Music Intermediate II — Lessons 21.01–21.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 21,
+     "page" : "Music Intermediate III: Lesson 21 K-Pop and the Reading Challenge"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "korea",
+     "l" : "Korea",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/4tw1TfZd3hc/hqdefault.jpg",
+   "title" : "Why K-POP is so popular?",
+   "url" : "https://www.youtube.com/watch?v=4tw1TfZd3hc"
+  },
+  {
+   "channel" : "Sarah Willis",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/4vh_nWwahto",
+   "id" : "4vh_nWwahto",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 30,
+     "page" : "Music Intermediate I — Lessons 30.01–30.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 30,
+     "page" : "Music Intermediate II — Lessons 30.01–30.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "french-horn",
+     "l" : "French horn",
+     "s" : "music.instrument"
+    },
+    {
+     "c" : "voice",
+     "l" : "Voice and choir",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/4vh_nWwahto/hqdefault.jpg",
+   "title" : "70 French Horns in Caracas play Weber´s \"Hunting Chorus\"!",
+   "url" : "https://www.youtube.com/watch?v=4vh_nWwahto"
+  },
+  {
+   "channel" : "Smithsonian Folkways",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/57vZ1XMzNuc",
+   "id" : "57vZ1XMzNuc",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 13,
+     "page" : "Music of the World - Lesson 13.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "folk",
+     "l" : "Folk and traditional",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "latin",
+     "l" : "Latin American popular",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "mexico",
+     "l" : "Mexico",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/57vZ1XMzNuc/hqdefault.jpg",
+   "title" : "José Gutiérrez & Los Hermanos Ochoa - \"La Bamba\" [Live at Smithsonian Folklife Festival 2004]",
+   "url" : "https://www.youtube.com/watch?v=57vZ1XMzNuc"
+  },
+  {
+   "channel" : "Matteo Scalone",
+   "courses" : [],
+   "crossRefs" : {},
+   "disposition" : "dropped-in-renovation",
+   "embed" : "https://www.youtube-nocookie.com/embed/5E7ByKR7TCk",
+   "id" : "5E7ByKR7TCk",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/5E7ByKR7TCk/hqdefault.jpg",
+   "title" : "Daniel Barenboim - Beethoven: Moonlight Sonata, op. 27 n. 2 (3rd mov.)",
+   "url" : "https://www.youtube.com/watch?v=5E7ByKR7TCk"
+  },
+  {
+   "channel" : "In Unison Music Lessons",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/71fkBqZ_4K8",
+   "id" : "71fkBqZ_4K8",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 20,
+     "page" : "Music Intermediate I — Lessons 20.01–20.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 20,
+     "page" : "Music Intermediate II — Lessons 20.01–20.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 20,
+     "page" : "Music Intermediate III: Lesson 20 Memorizing Rhythmic Notation"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "counting",
+     "l" : "Counting rhythms",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/71fkBqZ_4K8/hqdefault.jpg",
+   "title" : "Musical Fruits - Rhythm Syllables Clap-Along",
+   "url" : "https://www.youtube.com/watch?v=71fkBqZ_4K8"
+  },
+  {
+   "channel" : "Boston Youth Symphony Orchestras BYSO",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/7dgE-1kL-as",
+   "id" : "7dgE-1kL-as",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 27,
+     "page" : "Music Intermediate I — Lessons 27.01–27.04"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 28,
+     "page" : "Music Intermediate I — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 27,
+     "page" : "Music Intermediate II — Lessons 27.01–27.04"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "modern",
+     "l" : "20th century and modern",
+     "s" : "music.era"
+    },
+    {
+     "c" : "prokofiev",
+     "l" : "Sergei Prokofiev",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "appreciation",
+     "l" : "Listening and appreciation",
+     "s" : "music.skill"
+    },
+    {
+     "c" : "ela.narrative-in-music",
+     "d" : "English Language Arts",
+     "l" : "Story told without words",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/7dgE-1kL-as/hqdefault.jpg",
+   "title" : "Peter and the Wolf by Sergei Prokofiev",
+   "url" : "https://www.youtube.com/watch?v=7dgE-1kL-as"
+  },
+  {
+   "channel" : "TED-Ed",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/7n0tNSFJQ34",
+   "id" : "7n0tNSFJQ34",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 15,
+     "page" : "Music Intermediate I — Lessons 15.01–15.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 15,
+     "page" : "Music Intermediate II — Module 15: Beethoven and Music Symbols, Part 1"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 15,
+     "page" : "Music Intermediate III: Lesson 15 Beethoven and Expression Symbols"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/7n0tNSFJQ34/hqdefault.jpg",
+   "title" : "The secrets of the world’s most famous symphony - Hanako Sawada",
+   "url" : "https://www.youtube.com/watch?v=7n0tNSFJQ34"
+  },
+  {
+   "channel" : "Inside the Score",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/7ujEAN2s27s",
+   "id" : "7ujEAN2s27s",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 15,
+     "page" : "Music Intermediate I — Lessons 15.01–15.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 15,
+     "page" : "Music Intermediate II — Module 15: Beethoven and Music Symbols, Part 1"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 18,
+     "page" : "Music Intermediate II — Lessons 18.01–18.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 15,
+     "page" : "Music Intermediate III: Lesson 15 Beethoven and Expression Symbols"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/7ujEAN2s27s/hqdefault.jpg",
+   "title" : "Quick Guide: Beethoven's Fifth Symphony",
+   "url" : "https://www.youtube.com/watch?v=7ujEAN2s27s"
+  },
+  {
+   "channel" : "Gamelan Sekar Jaya",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/7y771-AxrFA",
+   "id" : "7y771-AxrFA",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 11,
+     "page" : "Music of the World - Lesson 11.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "gamelan",
+     "l" : "Gamelan and Indonesian",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "indonesia",
+     "l" : "Indonesia",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "gong",
+     "l" : "Gong and metallophone",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/7y771-AxrFA/hqdefault.jpg",
+   "title" : "interlocking madness #1",
+   "url" : "https://www.youtube.com/watch?v=7y771-AxrFA"
+  },
+  {
+   "channel" : "The Instrument Atlas",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/90bY6Hvqfv0",
+   "id" : "90bY6Hvqfv0",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 28,
+     "page" : "Music Intermediate I — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 28,
+     "page" : "Music Intermediate II — Lessons 28.01–28.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "clarinet",
+     "l" : "Clarinet",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/90bY6Hvqfv0/hqdefault.jpg",
+   "title" : "The Entire history of the clarinet",
+   "url" : "https://www.youtube.com/watch?v=90bY6Hvqfv0"
+  },
+  {
+   "channel" : "Anna Xu",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/9HEjAkFBBz0",
+   "id" : "9HEjAkFBBz0",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical-period",
+     "l" : "Classical period",
+     "s" : "music.era"
+    },
+    {
+     "c" : "mozart",
+     "l" : "Wolfgang Amadeus Mozart",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "flute",
+     "l" : "Flute",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/9HEjAkFBBz0/hqdefault.jpg",
+   "title" : "Queen of the Night [English and German subtitles] from Mozart's the Magic Flute",
+   "url" : "https://www.youtube.com/watch?v=9HEjAkFBBz0"
+  },
+  {
+   "channel" : "Philharmonia Orchestra",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/9MNS9LKcDII",
+   "id" : "9MNS9LKcDII",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 31,
+     "page" : "Music Intermediate I — Lessons 31.01–31.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 31,
+     "page" : "Music Intermediate II — Lessons 31.01–31.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "trombone",
+     "l" : "Trombone",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/9MNS9LKcDII/hqdefault.jpg",
+   "title" : "Instrument: Trombone",
+   "url" : "https://www.youtube.com/watch?v=9MNS9LKcDII"
+  },
+  {
+   "channel" : "Music Lessons with Mrs. Morris",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/9Z1ib231yd0",
+   "id" : "9Z1ib231yd0",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 1,
+     "page" : "Music Intermediate I — Lesson 1.1"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 4,
+     "page" : "Music Intermediate I — Lessons 4.01–4.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : null,
+     "page" : "Music Intermediate II — Source Harvest (video + content map)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 1,
+     "page" : "Music Intermediate II — Lessons 1.01–1.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 4,
+     "page" : "Music Intermediate II — Lessons 4.01–4.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 34,
+     "page" : "Music Intermediate II — Lessons 34.01–34.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : null,
+     "page" : "2-dot-1-expressive-qualities.html"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 4,
+     "page" : "Music Intermediate III: Lesson 4.1 to 4.3 Melody"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "melody",
+     "l" : "Melody",
+     "s" : "music.element"
+    },
+    {
+     "c" : "elements",
+     "l" : "Elements of music (overview)",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/9Z1ib231yd0/hqdefault.jpg",
+   "title" : "What is Melody? -Elements of Music",
+   "url" : "https://www.youtube.com/watch?v=9Z1ib231yd0"
+  },
+  {
+   "channel" : "Jasmine Choi",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/AWdQJlFXl1g",
+   "id" : "AWdQJlFXl1g",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "flute",
+     "l" : "Flute",
+     "s" : "music.instrument"
+    },
+    {
+     "c" : "piano",
+     "l" : "Piano",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/AWdQJlFXl1g/hqdefault.jpg",
+   "title" : "Monti: Czardas for Flute and Piano (arr.Choi) Flute #JasmineChoi Piano Jinwoo Park #flute #flutist",
+   "url" : "https://www.youtube.com/watch?v=AWdQJlFXl1g"
+  },
+  {
+   "channel" : "JBJ Entertainment",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {
+    "ela" : [
+     {
+      "author" : "Johann Wolfgang von Goethe",
+      "grade" : null,
+      "id" : "clt-faust-part-1",
+      "title" : "Faust — Part 1",
+      "via" : "Goethe"
+     }
+    ]
+   },
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Ah__4g01y_M",
+   "id" : "Ah__4g01y_M",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "ela.poetry-set-to-music",
+     "d" : "English Language Arts",
+     "l" : "Poetry set to music",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Ah__4g01y_M/hqdefault.jpg",
+   "title" : "【Ode to Joy】 Ode an die Freude, Beethoven Sympony 9 (Choral) 4th German lyrics & English Translation",
+   "url" : "https://www.youtube.com/watch?v=Ah__4g01y_M"
+  },
+  {
+   "channel" : "BLACKPINK",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Amq-qlqbjYA",
+   "id" : "Amq-qlqbjYA",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "korea",
+     "l" : "Korea",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Amq-qlqbjYA/hqdefault.jpg",
+   "title" : "BLACKPINK - '마지막처럼 (AS IF IT'S YOUR LAST)' M/V",
+   "url" : "https://www.youtube.com/watch?v=Amq-qlqbjYA"
+  },
+  {
+   "channel" : "12tone",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/BBbhfRfQIMM",
+   "id" : "BBbhfRfQIMM",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 8,
+     "page" : "Music Intermediate I — Lessons 8.1–8.2"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 8,
+     "page" : "Music Intermediate II — Lessons 8.01–8.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 8,
+     "page" : "Music Intermediate III: Lesson 8 Tone and Notes"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "pitch",
+     "l" : "Pitch",
+     "s" : "music.element"
+    },
+    {
+     "c" : "math.proportion",
+     "d" : "Mathematics",
+     "l" : "Proportion and ratio",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/BBbhfRfQIMM/hqdefault.jpg",
+   "title" : "Why Do Notes Have Names?",
+   "url" : "https://www.youtube.com/watch?v=BBbhfRfQIMM"
+  },
+  {
+   "channel" : "National Museum of American History",
+   "courses" : [
+    "mi-1",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/BMgKXbtQwoo",
+   "id" : "BMgKXbtQwoo",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 13,
+     "page" : "Music Intermediate III: Lesson Louis Armstrong and Jazz"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "jazz",
+     "l" : "Jazz",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/BMgKXbtQwoo/hqdefault.jpg",
+   "title" : "What is Jazz?",
+   "url" : "https://www.youtube.com/watch?v=BMgKXbtQwoo"
+  },
+  {
+   "channel" : "Viva Music Group Oficial",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/BiHdlH-qmbQ",
+   "id" : "BiHdlH-qmbQ",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 13,
+     "page" : "Music of the World - Lesson 13.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "latin",
+     "l" : "Latin American popular",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "mexico",
+     "l" : "Mexico",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/BiHdlH-qmbQ/hqdefault.jpg",
+   "title" : "Mariachi Vargas de Tecalitlán - \"La Experiencia\" Vol.1 (En Vivo) @MariachiVargasOficial",
+   "url" : "https://www.youtube.com/watch?v=BiHdlH-qmbQ"
+  },
+  {
+   "channel" : "Love WildManChris",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/CH1XGdu-hzQ",
+   "id" : "CH1XGdu-hzQ",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/CH1XGdu-hzQ/hqdefault.jpg",
+   "title" : "PSY- Gangnam Style (Official Music Video)",
+   "url" : "https://www.youtube.com/watch?v=CH1XGdu-hzQ"
+  },
+  {
+   "channel" : "Revive Music",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/CLLpSmaof4E",
+   "id" : "CLLpSmaof4E",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 17,
+     "page" : "Music Intermediate I — Lessons 17.01–17.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 17,
+     "page" : "Music Intermediate II — Lessons 17.01–17.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 17,
+     "page" : "Music Intermediate III: Lesson 17 Pop Music and Verse-Chorus Form"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "pop",
+     "l" : "Pop",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/CLLpSmaof4E/hqdefault.jpg",
+   "title" : "Clean Pop Music 2026 - Clean Pop Music for Classrooms - Clean Music Playlist",
+   "url" : "https://www.youtube.com/watch?v=CLLpSmaof4E"
+  },
+  {
+   "channel" : "LouisArmstrongVEVO",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {
+    "art" : [
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_9a44119fc364",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546238",
+      "title" : "Barcelona",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_e4e8d3d02a82",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546240",
+      "title" : "Bravado",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Jacob Lawrence",
+      "id" : "aw_e57dc1553a30",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.20869118",
+      "title" : "Confrontation at the Bridge",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Jacob Lawrence",
+      "id" : "aw_adf694bf7d0b",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.21795839",
+      "title" : "Going to Work",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Douglas, Aaron, 1899-1979 ; Measurements: 10 x 12\"",
+      "id" : "aw_ceee2cc0d7d6",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.12546250",
+      "title" : "Haystacks",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Aaron Douglas",
+      "id" : "aw_8d5fb9934adc",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.14590767",
+      "title" : "Into Bondage",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     },
+     {
+      "creator" : "Gwendolyn Knight Lawrence ; Material: Lithograph; Measurements: 22 x 30in.",
+      "id" : "aw_7a5a055454c2",
+      "image" : null,
+      "jstor_url" : "https://www.jstor.org/stable/community.20868811",
+      "title" : "Mother and Child: Lullaby",
+      "via" : [
+       "history.harlem-renaissance"
+      ]
+     }
+    ],
+    "ela" : [
+     {
+      "author" : "Langston Hughes",
+      "grade" : "5",
+      "id" : "5-dreams",
+      "title" : "Dreams",
+      "via" : "Langston Hughes"
+     },
+     {
+      "author" : "Frederick Douglass",
+      "grade" : "11",
+      "id" : "11-narrative-of-the-life-of-frederick-douglass",
+      "title" : "Narrative of the Life of Frederick Douglass",
+      "via" : "Aaron Douglas"
+     },
+     {
+      "author" : null,
+      "grade" : "12",
+      "id" : "12-poetry",
+      "title" : "Poetry",
+      "via" : "Langston Hughes"
+     },
+     {
+      "author" : "Zora Neale Hurston",
+      "grade" : "10",
+      "id" : "10-their-eyes-were-watching-god",
+      "title" : "Their Eyes Were Watching God",
+      "via" : "Zora Neale Hurston"
+     }
+    ]
+   },
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/CaCSuzR4DwM",
+   "id" : "CaCSuzR4DwM",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "armstrong",
+     "l" : "Louis Armstrong",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "history.harlem-renaissance",
+     "d" : "History",
+     "l" : "The Harlem Renaissance",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/CaCSuzR4DwM/hqdefault.jpg",
+   "title" : "Louis Armstrong - What A Wonderful World (At The BBC)",
+   "url" : "https://www.youtube.com/watch?v=CaCSuzR4DwM"
+  },
+  {
+   "channel" : "Kapta Prism",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/CzKOgAYYhGE",
+   "id" : "CzKOgAYYhGE",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/CzKOgAYYhGE/hqdefault.jpg",
+   "title" : "Immortal Beloved (1994) - Moonlight Sonata Sequence HD Complete",
+   "url" : "https://www.youtube.com/watch?v=CzKOgAYYhGE"
+  },
+  {
+   "channel" : "Sarah Stockton Resources",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/DGGtadUAGDc",
+   "id" : "DGGtadUAGDc",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 22,
+     "page" : "Music Intermediate I — Lessons 22.01–22.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 22,
+     "page" : "Music Intermediate II — Lessons 22.01–22.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 23,
+     "page" : "Music Intermediate II — Lessons 23.01–23.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 22,
+     "page" : "Music Intermediate III: Lesson 22 Conducting, Marking the Beat"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "meter",
+     "l" : "Meter and time signature",
+     "s" : "music.element"
+    },
+    {
+     "c" : "conducting",
+     "l" : "Conducting",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/DGGtadUAGDc/hqdefault.jpg",
+   "title" : "Time Signatures 2/4, 3/4, 4/4",
+   "url" : "https://www.youtube.com/watch?v=DGGtadUAGDc"
+  },
+  {
+   "channel" : "Enjoy Classical Music",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/DcAWRVEIbEw",
+   "id" : "DcAWRVEIbEw",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 33,
+     "page" : "Music Intermediate I — Lessons 33.01–33.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 33,
+     "page" : "Music Intermediate II — Lessons 33.01–33.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "percussion",
+     "l" : "Percussion",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/DcAWRVEIbEw/hqdefault.jpg",
+   "title" : "The Sections of the Orchestra: Percussion",
+   "url" : "https://www.youtube.com/watch?v=DcAWRVEIbEw"
+  },
+  {
+   "channel" : "Classic FM",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/DkTlGaAhTA0",
+   "id" : "DkTlGaAhTA0",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 26,
+     "page" : "Music Intermediate I — Lessons 26.01–26.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 26,
+     "page" : "Music Intermediate II — Lessons 26.01–26.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "cello",
+     "l" : "Cello",
+     "s" : "music.instrument"
+    },
+    {
+     "c" : "science.acoustics",
+     "d" : "Science",
+     "l" : "Acoustics and how sound works",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/DkTlGaAhTA0/hqdefault.jpg",
+   "title" : "How Does the Cello Work? | Classic FM",
+   "url" : "https://www.youtube.com/watch?v=DkTlGaAhTA0"
+  },
+  {
+   "channel" : "Green Bean's Music - Children's Channel",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Ecmf2TBFvjs",
+   "id" : "Ecmf2TBFvjs",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 5,
+     "page" : "Music Intermediate II — Lessons 5.01–5.04"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Ecmf2TBFvjs/hqdefault.jpg",
+   "title" : "What is Harmony in Music? | Music Theory for Kids | Building Blocks of Music | Green Bean's Music",
+   "url" : "https://www.youtube.com/watch?v=Ecmf2TBFvjs"
+  },
+  {
+   "channel" : "Bob Marley",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/EkYN-J9zZ6Q",
+   "id" : "EkYN-J9zZ6Q",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 8,
+     "page" : "Music of the World - Lesson 8.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "reggae",
+     "l" : "Reggae",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "jamaica",
+     "l" : "Jamaica",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "history.civil-rights",
+     "d" : "History",
+     "l" : "Civil rights and protest",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/EkYN-J9zZ6Q/hqdefault.jpg",
+   "title" : "Bob Marley - Get Up, Stand Up (Official Music Video)",
+   "url" : "https://www.youtube.com/watch?v=EkYN-J9zZ6Q"
+  },
+  {
+   "channel" : "Soons Music Room",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/EoSZ1yhxgqA",
+   "id" : "EoSZ1yhxgqA",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 22,
+     "page" : "Music Intermediate I — Lessons 22.01–22.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 22,
+     "page" : "Music Intermediate II — Lessons 22.01–22.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 22,
+     "page" : "Music Intermediate III: Lesson 22 Conducting, Marking the Beat"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "meter",
+     "l" : "Meter and time signature",
+     "s" : "music.element"
+    },
+    {
+     "c" : "ear-training",
+     "l" : "Ear training",
+     "s" : "music.skill"
+    },
+    {
+     "c" : "conducting",
+     "l" : "Conducting",
+     "s" : "music.skill"
+    },
+    {
+     "c" : "math.proportion",
+     "d" : "Mathematics",
+     "l" : "Proportion and ratio",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/EoSZ1yhxgqA/hqdefault.jpg",
+   "title" : "Time Signature Ear Training - Clap the Beats",
+   "url" : "https://www.youtube.com/watch?v=EoSZ1yhxgqA"
+  },
+  {
+   "channel" : "Few Minutes Knowledge",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/F3Hv25iOVYg",
+   "id" : "F3Hv25iOVYg",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 27,
+     "page" : "Music Intermediate I — Lessons 27.01–27.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 27,
+     "page" : "Music Intermediate II — Lessons 27.01–27.04"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 27,
+     "page" : "Music Intermediate III: Woodwinds I, Flute and Oboe"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "modern",
+     "l" : "20th century and modern",
+     "s" : "music.era"
+    },
+    {
+     "c" : "prokofiev",
+     "l" : "Sergei Prokofiev",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "appreciation",
+     "l" : "Listening and appreciation",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/F3Hv25iOVYg/hqdefault.jpg",
+   "title" : "Sergei Prokofiev: A Genius of Modern Classical Sound",
+   "url" : "https://www.youtube.com/watch?v=F3Hv25iOVYg"
+  },
+  {
+   "channel" : "Akademia Filmu i Telewizji",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/FtE3hoR_Nvo",
+   "id" : "FtE3hoR_Nvo",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "modern",
+     "l" : "20th century and modern",
+     "s" : "music.era"
+    },
+    {
+     "c" : "morricone",
+     "l" : "Ennio Morricone",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "oboe",
+     "l" : "Oboe",
+     "s" : "music.instrument"
+    },
+    {
+     "c" : "ela.narrative-in-music",
+     "d" : "English Language Arts",
+     "l" : "Story told without words",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/FtE3hoR_Nvo/hqdefault.jpg",
+   "title" : "Morricone – Gabriel's Oboe from The Mission, Maja Łagowska – oboe, conducted by Andrzej Kucybała",
+   "url" : "https://www.youtube.com/watch?v=FtE3hoR_Nvo"
+  },
+  {
+   "channel" : "DW Classical Music",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/FwDo7MdaxhA",
+   "id" : "FwDo7MdaxhA",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 16,
+     "page" : "Music Intermediate I — Lessons 16.01–16.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 16,
+     "page" : "Music Intermediate II — Lessons 16.01–16.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/FwDo7MdaxhA/hqdefault.jpg",
+   "title" : "Beethoven: Symphony No. 9 | Jordi Savall with Le Concert des Nations (complete symphony)",
+   "url" : "https://www.youtube.com/watch?v=FwDo7MdaxhA"
+  },
+  {
+   "channel" : "Gamelan Sekar Jaya",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/GWUhvHfxN00",
+   "id" : "GWUhvHfxN00",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 18,
+     "page" : "Music of the World - Lesson 18.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "gamelan",
+     "l" : "Gamelan and Indonesian",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "indonesia",
+     "l" : "Indonesia",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "gong",
+     "l" : "Gong and metallophone",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/GWUhvHfxN00/hqdefault.jpg",
+   "title" : "GSJ All-Star Gong Kebyar plays Taruna Jaya",
+   "url" : "https://www.youtube.com/watch?v=GWUhvHfxN00"
+  },
+  {
+   "channel" : "TED-Ed",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/IYHfiQ4R7Bs",
+   "id" : "IYHfiQ4R7Bs",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 29,
+     "page" : "Music Intermediate I — Lessons 29.01–29.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 29,
+     "page" : "Music Intermediate II — Lessons 29.01–29.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "science.acoustics",
+     "d" : "Science",
+     "l" : "Acoustics and how sound works",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/IYHfiQ4R7Bs/hqdefault.jpg",
+   "title" : "How brass instruments work - Al Cannon",
+   "url" : "https://www.youtube.com/watch?v=IYHfiQ4R7Bs"
+  },
+  {
+   "channel" : "Trent Hamilton",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/J52EUT1xfwA",
+   "id" : "J52EUT1xfwA",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 32,
+     "page" : "Music Intermediate I — Lessons 32.01–32.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 32,
+     "page" : "Music Intermediate II — Lessons 32.01–32.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "math.proportion",
+     "d" : "Mathematics",
+     "l" : "Proportion and ratio",
+     "s" : "concept"
+    },
+    {
+     "c" : "science.acoustics",
+     "d" : "Science",
+     "l" : "Acoustics and how sound works",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/J52EUT1xfwA/hqdefault.jpg",
+   "title" : "The Science of Brass Tuning | Stuff all brass players should know",
+   "url" : "https://www.youtube.com/watch?v=J52EUT1xfwA"
+  },
+  {
+   "channel" : "Breaking Barlines: Music with Aron Bernstein",
+   "courses" : [
+    "mt-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/JFGgj3gtI1c",
+   "id" : "JFGgj3gtI1c",
+   "lessons" : [
+    {
+     "course" : "mt-1",
+     "module" : 13,
+     "page" : "M/J Music Theory 1 — Lesson 13.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "meter",
+     "l" : "Meter and time signature",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/JFGgj3gtI1c/hqdefault.jpg",
+   "title" : "Music Theory: Compound Meter",
+   "url" : "https://www.youtube.com/watch?v=JFGgj3gtI1c"
+  },
+  {
+   "channel" : null,
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "dead-link",
+   "embed" : "https://www.youtube-nocookie.com/embed/JNA07yyFtZQ",
+   "id" : "JNA07yyFtZQ",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 32,
+     "page" : "Music Intermediate I — Lessons 32.01–32.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 32,
+     "page" : "Music Intermediate II — Lessons 32.01–32.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 32,
+     "page" : "Music Intermediate III: Brass IV, Tuba and Ear Training"
+    }
+   ],
+   "state" : "deleted",
+   "tags" : [
+    {
+     "c" : "intervals",
+     "l" : "Intervals",
+     "s" : "music.element"
+    },
+    {
+     "c" : "ear-training",
+     "l" : "Ear training",
+     "s" : "music.skill"
+    },
+    {
+     "c" : "math.proportion",
+     "d" : "Mathematics",
+     "l" : "Proportion and ratio",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : null,
+   "title" : null,
+   "url" : "https://www.youtube.com/watch?v=JNA07yyFtZQ"
+  },
+  {
+   "channel" : "In Unison Music Lessons",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/JzEvEltvhfw",
+   "id" : "JzEvEltvhfw",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 3,
+     "page" : "Music Intermediate I — Lesson 3.1 & 3.2"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 3,
+     "page" : "Music Intermediate II — Lessons 3.1–3.2"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 3,
+     "page" : "Music Intermediate III: Lesson 3.1 to 3.2 Rhythm in Detail"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/JzEvEltvhfw/hqdefault.jpg",
+   "title" : "Rhythm & The Beat (with 27 Clap-Along examples)",
+   "url" : "https://www.youtube.com/watch?v=JzEvEltvhfw"
+  },
+  {
+   "channel" : "Aretha Franklin",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/JzqGZjFnYnA",
+   "id" : "JzqGZjFnYnA",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 7,
+     "page" : "Music of the World - Lesson 7.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "history.civil-rights",
+     "d" : "History",
+     "l" : "Civil rights and protest",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/JzqGZjFnYnA/hqdefault.jpg",
+   "title" : "Aretha Franklin - Respect (Official Audio)",
+   "url" : "https://www.youtube.com/watch?v=JzqGZjFnYnA"
+  },
+  {
+   "channel" : "singtolearn",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/KUtEg8Qxuxk",
+   "id" : "KUtEg8Qxuxk",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 12,
+     "page" : "Music Intermediate I — Lessons 12.01–12.03"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 19,
+     "page" : "Music Intermediate I — Lessons 19.01–19.02"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 35,
+     "page" : "Music Intermediate I — Lessons 35.01–35.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 12,
+     "page" : "Music Intermediate II — Lessons 12.01–12.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 19,
+     "page" : "Music Intermediate II — Lessons 19.01–19.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 35,
+     "page" : "Music Intermediate II — Lesson 35 Music Review Part 2"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 19,
+     "page" : "Music Intermediate III: Lesson 19 Music Reading Review"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 35,
+     "page" : "Music Intermediate III: Music Review Part 2 — More on Standards of Music and Reading Music"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "notation",
+     "l" : "Notation and reading music",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/KUtEg8Qxuxk/hqdefault.jpg",
+   "title" : "Rhythm Lesson",
+   "url" : "https://www.youtube.com/watch?v=KUtEg8Qxuxk"
+  },
+  {
+   "channel" : "Johnny Cash - Topic",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/KnbvZBbBmN4",
+   "id" : "KnbvZBbBmN4",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 9,
+     "page" : "Music of the World - Lesson 9.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "blues",
+     "l" : "Blues",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "country",
+     "l" : "Country and bluegrass",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "appalachia",
+     "l" : "Appalachia and the American South",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/KnbvZBbBmN4/hqdefault.jpg",
+   "title" : "Folsom Prison Blues (Live at Folsom State Prison, Folsom, CA - January 1968)",
+   "url" : "https://www.youtube.com/watch?v=KnbvZBbBmN4"
+  },
+  {
+   "channel" : "Berklee College of Music",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/LAwgD_YxRgM",
+   "id" : "LAwgD_YxRgM",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 10,
+     "page" : "Music of the World - Lesson 10.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "indian-classical",
+     "l" : "Indian classical",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "india",
+     "l" : "India",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "tabla",
+     "l" : "Tabla",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/LAwgD_YxRgM/hqdefault.jpg",
+   "title" : "Zakir Hussain Meets Berklee - Ustad Zakir Hussain Tabla Solo",
+   "url" : "https://www.youtube.com/watch?v=LAwgD_YxRgM"
+  },
+  {
+   "channel" : "Sharon Bill",
+   "courses" : [
+    "mt-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/LBA2EPhp6OQ",
+   "id" : "LBA2EPhp6OQ",
+   "lessons" : [
+    {
+     "course" : "mt-1",
+     "module" : 10,
+     "page" : "Lesson 10.01 · Natural Minor Scales"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "scales",
+     "l" : "Scales",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/LBA2EPhp6OQ/hqdefault.jpg",
+   "title" : "The Natural Minor Scale: A Beginners Music Theory Lesson",
+   "url" : "https://www.youtube.com/watch?v=LBA2EPhp6OQ"
+  },
+  {
+   "channel" : "Jessica Gearhart",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/LaXgEHBYT3c",
+   "id" : "LaXgEHBYT3c",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 33,
+     "page" : "Music Intermediate I — Lessons 33.01–33.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 33,
+     "page" : "Music Intermediate II — Lessons 33.01–33.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 33,
+     "page" : "Music Intermediate III: Percussion and Major Scales"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "scales",
+     "l" : "Scales",
+     "s" : "music.element"
+    },
+    {
+     "c" : "percussion",
+     "l" : "Percussion",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/LaXgEHBYT3c/hqdefault.jpg",
+   "title" : "The Percussion Family",
+   "url" : "https://www.youtube.com/watch?v=LaXgEHBYT3c"
+  },
+  {
+   "channel" : "Cincinnati Symphony Orchestra",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/LkvjuZX8FXU",
+   "id" : "LkvjuZX8FXU",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "flute",
+     "l" : "Flute",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/LkvjuZX8FXU/hqdefault.jpg",
+   "title" : "All About the Flute | Behind the Stand: Flute | Cincinnati Symphony Orchestra",
+   "url" : "https://www.youtube.com/watch?v=LkvjuZX8FXU"
+  },
+  {
+   "channel" : "Walking Mountains",
+   "courses" : [
+    "music-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "live-canvas",
+   "embed" : "https://www.youtube-nocookie.com/embed/LnjFTVY7Rtw",
+   "id" : "LnjFTVY7Rtw",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [],
+   "thumb" : "https://i.ytimg.com/vi/LnjFTVY7Rtw/hqdefault.jpg",
+   "title" : "Backyard Nature Challenge: Nature Instruments",
+   "url" : "https://www.youtube.com/watch?v=LnjFTVY7Rtw"
+  },
+  {
+   "channel" : "United States Marine Band",
+   "courses" : [],
+   "crossRefs" : {},
+   "disposition" : "dropped-in-renovation",
+   "embed" : "https://www.youtube-nocookie.com/embed/MVJRqp7OfH4",
+   "id" : "MVJRqp7OfH4",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "sousa",
+     "l" : "John Philip Sousa",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/MVJRqp7OfH4/hqdefault.jpg",
+   "title" : "The Stars and Stripes Forever – John Philip Sousa",
+   "url" : "https://www.youtube.com/watch?v=MVJRqp7OfH4"
+  },
+  {
+   "channel" : "أم كلثوم Umm Kulthum",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/MxWfNyZMj1M",
+   "id" : "MxWfNyZMj1M",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 12,
+     "page" : "Music of the World - Lesson 12.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "arabic",
+     "l" : "Arabic and Middle Eastern",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "egypt-arab",
+     "l" : "Egypt and the Arab world",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/MxWfNyZMj1M/hqdefault.jpg",
+   "title" : "اغدا القاك Aghadan Alqak أم كلثوم Umm Kulthum [Cairo University 10th September 1972]",
+   "url" : "https://www.youtube.com/watch?v=MxWfNyZMj1M"
+  },
+  {
+   "channel" : "CAMERATA Salzburg",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/N1cexwLOvtY",
+   "id" : "N1cexwLOvtY",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 11,
+     "page" : "Music Intermediate II — Lessons 11.01–11.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "classical-period",
+     "l" : "Classical period",
+     "s" : "music.era"
+    },
+    {
+     "c" : "mozart",
+     "l" : "Wolfgang Amadeus Mozart",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/N1cexwLOvtY/hqdefault.jpg",
+   "title" : "Mozart: Symphony No. 40 in G minor K. 550 | CAMERATA Salzburg",
+   "url" : "https://www.youtube.com/watch?v=N1cexwLOvtY"
+  },
+  {
+   "channel" : "kodomo kids",
+   "courses" : [
+    "music-k"
+   ],
+   "crossRefs" : {},
+   "disposition" : "live-canvas",
+   "embed" : "https://www.youtube-nocookie.com/embed/N2wETmvtdsc",
+   "id" : "N2wETmvtdsc",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "folk",
+     "l" : "Folk and traditional",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/N2wETmvtdsc/hqdefault.jpg",
+   "title" : "Seven Jumps | Danish Folk Dance",
+   "url" : "https://www.youtube.com/watch?v=N2wETmvtdsc"
+  },
+  {
+   "channel" : "noteZilla",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/NWEVKyEwi4A",
+   "id" : "NWEVKyEwi4A",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 15,
+     "page" : "Music Intermediate I — Lessons 15.01–15.03"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 16,
+     "page" : "Music Intermediate I — Lessons 16.01–16.03"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 36,
+     "page" : "Music Intermediate I — Lessons 36.01–36.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 15,
+     "page" : "Music Intermediate II — Module 15: Beethoven and Music Symbols, Part 1"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 36,
+     "page" : "Music Intermediate II — Lesson 36 Music Review Part 3"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 15,
+     "page" : "Music Intermediate III: Lesson 15 Beethoven and Expression Symbols"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 16,
+     "page" : "Music Intermediate III: Lesson 16 Beethoven and the Ode to Joy"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 36,
+     "page" : "Music Intermediate III: Lesson 36 Comprehensive Review"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "notation",
+     "l" : "Notation and reading music",
+     "s" : "music.element"
+    },
+    {
+     "c" : "sight-reading",
+     "l" : "Reading notation",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/NWEVKyEwi4A/hqdefault.jpg",
+   "title" : "Sheet music - Beethoven Symphony No. 5, Mvt. I (HD)",
+   "url" : "https://www.youtube.com/watch?v=NWEVKyEwi4A"
+  },
+  {
+   "channel" : "Woody Guthrie - Topic",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Ol0rRdF5L1c",
+   "id" : "Ol0rRdF5L1c",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 9,
+     "page" : "Music of the World - Lesson 9.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "history.civil-rights",
+     "d" : "History",
+     "l" : "Civil rights and protest",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Ol0rRdF5L1c/hqdefault.jpg",
+   "title" : "This Land is Your Land",
+   "url" : "https://www.youtube.com/watch?v=Ol0rRdF5L1c"
+  },
+  {
+   "channel" : "The Good and the Beautiful",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/PBuDtF-71po",
+   "id" : "PBuDtF-71po",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 2,
+     "page" : "Music Intermediate I — Lessons 2.1–2.4"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 2,
+     "page" : "Music Intermediate II — Module 2 · Parameters of Music, Part 2"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 2,
+     "page" : "Music Intermediate III: Lesson 2.1 to 2.4 Expressive Qualities, Tone, and History"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "elements",
+     "l" : "Elements of music (overview)",
+     "s" : "music.element"
+    },
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    },
+    {
+     "c" : "appreciation",
+     "l" : "Listening and appreciation",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/PBuDtF-71po/hqdefault.jpg",
+   "title" : "Homeschool Elective - Music Appreciation | Flip Through | The Good and the Beautiful",
+   "url" : "https://www.youtube.com/watch?v=PBuDtF-71po"
+  },
+  {
+   "channel" : "Viola King",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/PLr5pvvmMLg",
+   "id" : "PLr5pvvmMLg",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 25,
+     "page" : "Music Intermediate I — Lessons 25.01–25.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 25,
+     "page" : "Music Intermediate II — Lessons 25.01–25.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 25,
+     "page" : "Music Intermediate III: Lesson 25 Violin and Viola"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "violin",
+     "l" : "Violin",
+     "s" : "music.instrument"
+    },
+    {
+     "c" : "viola",
+     "l" : "Viola",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/PLr5pvvmMLg/hqdefault.jpg",
+   "title" : "Violin vs. Viola—What’s the Difference? (Which is Harder?)",
+   "url" : "https://www.youtube.com/watch?v=PLr5pvvmMLg"
+  },
+  {
+   "channel" : "kanunadam",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Q-k3EmD4o84",
+   "id" : "Q-k3EmD4o84",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 12,
+     "page" : "Music of the World - Lesson 12.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "arabic",
+     "l" : "Arabic and Middle Eastern",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "turkey",
+     "l" : "Turkey",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "qanun",
+     "l" : "Qanun",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Q-k3EmD4o84/hqdefault.jpg",
+   "title" : "Kanun Dersleri ( Mandal Glissando kullanımı ) Kanun, Qanun tutorial for mandal education.",
+   "url" : "https://www.youtube.com/watch?v=Q-k3EmD4o84"
+  },
+  {
+   "channel" : "Philharmonia Orchestra",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/QcIp7K2UFgE",
+   "id" : "QcIp7K2UFgE",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 29,
+     "page" : "Music Intermediate I — Lessons 29.01–29.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 29,
+     "page" : "Music Intermediate II — Lessons 29.01–29.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "trumpet",
+     "l" : "Trumpet",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/QcIp7K2UFgE/hqdefault.jpg",
+   "title" : "Instrument: Trumpet",
+   "url" : "https://www.youtube.com/watch?v=QcIp7K2UFgE"
+  },
+  {
+   "channel" : "Ryan's Instruments",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/REjCNkVpdzI",
+   "id" : "REjCNkVpdzI",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 32,
+     "page" : "Music Intermediate I — Lessons 32.01–32.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 32,
+     "page" : "Music Intermediate II — Lessons 32.01–32.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 32,
+     "page" : "Music Intermediate III: Brass IV, Tuba and Ear Training"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "ear-training",
+     "l" : "Ear training",
+     "s" : "music.skill"
+    },
+    {
+     "c" : "tuba",
+     "l" : "Tuba",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/REjCNkVpdzI/hqdefault.jpg",
+   "title" : "Every Type Of Tuba EXPLAINED ",
+   "url" : "https://www.youtube.com/watch?v=REjCNkVpdzI"
+  },
+  {
+   "channel" : "OddViolin",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Rfy28X9wdxg",
+   "id" : "Rfy28X9wdxg",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 25,
+     "page" : "Music Intermediate I — Lessons 25.01–25.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 25,
+     "page" : "Music Intermediate II — Lessons 25.01–25.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "violin",
+     "l" : "Violin",
+     "s" : "music.instrument"
+    },
+    {
+     "c" : "science.acoustics",
+     "d" : "Science",
+     "l" : "Acoustics and how sound works",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Rfy28X9wdxg/hqdefault.jpg",
+   "title" : "Sound Effects on Violin | Compilation",
+   "url" : "https://www.youtube.com/watch?v=Rfy28X9wdxg"
+  },
+  {
+   "channel" : "Brown University Department of Music",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Rn25j5xozqg",
+   "id" : "Rn25j5xozqg",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 11,
+     "page" : "Music of the World - Lesson 11.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "gamelan",
+     "l" : "Gamelan and Indonesian",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "indonesia",
+     "l" : "Indonesia",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "gong",
+     "l" : "Gong and metallophone",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Rn25j5xozqg/hqdefault.jpg",
+   "title" : "Brown University Javanese Gamelan Ensemble - Sekar Setaman - In Concert May 2016",
+   "url" : "https://www.youtube.com/watch?v=Rn25j5xozqg"
+  },
+  {
+   "channel" : "Classic FM",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/RvQZM7Z4PPw",
+   "id" : "RvQZM7Z4PPw",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 28,
+     "page" : "Music Intermediate I — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 28,
+     "page" : "Music Intermediate II — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 28,
+     "page" : "Music Intermediate III: Woodwinds II, Clarinet and Bassoon"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "clarinet",
+     "l" : "Clarinet",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/RvQZM7Z4PPw/hqdefault.jpg",
+   "title" : "Introducing the Clarinet with Julian Bliss | Discover Instruments | Classic FM",
+   "url" : "https://www.youtube.com/watch?v=RvQZM7Z4PPw"
+  },
+  {
+   "channel" : "ElvisPresleyVEVO",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/RxOBOhRECoo",
+   "id" : "RxOBOhRECoo",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 7,
+     "page" : "Music Intermediate I — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 7,
+     "page" : "Music Intermediate II — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 7,
+     "page" : "Music Intermediate III: Lesson 7.1 to 7.2 Music History and Elvis Presley"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "presley",
+     "l" : "Elvis Presley",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/RxOBOhRECoo/hqdefault.jpg",
+   "title" : "Elvis Presley - Suspicious Minds (Official Audio)",
+   "url" : "https://www.youtube.com/watch?v=RxOBOhRECoo"
+  },
+  {
+   "channel" : "David Hartley",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/SAIvTZiNcqQ",
+   "id" : "SAIvTZiNcqQ",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 2,
+     "page" : "Music Intermediate I — Lessons 2.1–2.4"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 2,
+     "page" : "Music Intermediate II — Module 2 · Parameters of Music, Part 2"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 2,
+     "page" : "Music Intermediate III: Lesson 2.1 to 2.4 Expressive Qualities, Tone, and History"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "elements",
+     "l" : "Elements of music (overview)",
+     "s" : "music.element"
+    },
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/SAIvTZiNcqQ/hqdefault.jpg",
+   "title" : "Musical Expression: Explained!",
+   "url" : "https://www.youtube.com/watch?v=SAIvTZiNcqQ"
+  },
+  {
+   "channel" : "Art for Kids Hub",
+   "courses" : [
+    "music-k"
+   ],
+   "crossRefs" : {},
+   "disposition" : "live-canvas",
+   "embed" : "https://www.youtube-nocookie.com/embed/SOc3238Z3vM",
+   "id" : "SOc3238Z3vM",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [],
+   "thumb" : "https://i.ytimg.com/vi/SOc3238Z3vM/hqdefault.jpg",
+   "title" : "How To Draw A Train",
+   "url" : "https://www.youtube.com/watch?v=SOc3238Z3vM"
+  },
+  {
+   "channel" : "NewYork Cello",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/SSAj4JxOrxQ",
+   "id" : "SSAj4JxOrxQ",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 26,
+     "page" : "Music Intermediate I — Lessons 26.01–26.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 26,
+     "page" : "Music Intermediate II — Lessons 26.01–26.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 26,
+     "page" : "Music Intermediate III: Lesson 26.1 to 26.2 The Cello and Double Bass"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "cello",
+     "l" : "Cello",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/SSAj4JxOrxQ/hqdefault.jpg",
+   "title" : "10 interesting stories from the History of the Cello instrument #cellohistory #cello #history",
+   "url" : "https://www.youtube.com/watch?v=SSAj4JxOrxQ"
+  },
+  {
+   "channel" : "Stella Vorarlberg Privathochschule für Musik",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/TLQpI6nULdg",
+   "id" : "TLQpI6nULdg",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 28,
+     "page" : "Music Intermediate I — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 28,
+     "page" : "Music Intermediate II — Lessons 28.01–28.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical-period",
+     "l" : "Classical period",
+     "s" : "music.era"
+    },
+    {
+     "c" : "mozart",
+     "l" : "Wolfgang Amadeus Mozart",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "bassoon",
+     "l" : "Bassoon",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/TLQpI6nULdg/hqdefault.jpg",
+   "title" : "W.A. Mozart: Konzert für Fagott und Orchester in B-Dur KV 191. Katharina Mätzler, Fagott",
+   "url" : "https://www.youtube.com/watch?v=TLQpI6nULdg"
+  },
+  {
+   "channel" : "MCG Jazz",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/TNPvE8MNqe0",
+   "id" : "TNPvE8MNqe0",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 1,
+     "page" : "Music Intermediate I — Lesson 1.1"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 5,
+     "page" : "Music Intermediate I — Lessons 5.01–5.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : null,
+     "page" : "Music Intermediate II — Source Harvest (video + content map)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 1,
+     "page" : "Music Intermediate II — Lessons 1.01–1.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 5,
+     "page" : "Music Intermediate II — Lessons 5.01–5.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 34,
+     "page" : "Music Intermediate II — Lessons 34.01–34.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : null,
+     "page" : "2-dot-1-expressive-qualities.html"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 5,
+     "page" : "Music Intermediate III: Lesson 5.1 to 5.4 Harmony"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "jazz",
+     "l" : "Jazz",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/TNPvE8MNqe0/hqdefault.jpg",
+   "title" : "Harmony, What is it?",
+   "url" : "https://www.youtube.com/watch?v=TNPvE8MNqe0"
+  },
+  {
+   "channel" : "oandoduo",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/UZNO13xKAPY",
+   "id" : "UZNO13xKAPY",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 5,
+     "page" : "Music Intermediate I — Lessons 5.01–5.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 5,
+     "page" : "Music Intermediate II — Lessons 5.01–5.04"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 5,
+     "page" : "Music Intermediate III: Lesson 5.1 to 5.4 Harmony"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    },
+    {
+     "c" : "singing",
+     "l" : "Singing",
+     "s" : "music.skill"
+    },
+    {
+     "c" : "voice",
+     "l" : "Voice and choir",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/UZNO13xKAPY/hqdefault.jpg",
+   "title" : "How To Sing In Harmony | One Easy Example | #StayHome and sing #WithMe",
+   "url" : "https://www.youtube.com/watch?v=UZNO13xKAPY"
+  },
+  {
+   "channel" : null,
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "dead-link",
+   "embed" : "https://www.youtube-nocookie.com/embed/Uft6cHgMewY",
+   "id" : "Uft6cHgMewY",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 32,
+     "page" : "Music Intermediate I — Lessons 32.01–32.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 32,
+     "page" : "Music Intermediate II — Lessons 32.01–32.02"
+    }
+   ],
+   "state" : "private",
+   "tags" : [
+    {
+     "c" : "intervals",
+     "l" : "Intervals",
+     "s" : "music.element"
+    },
+    {
+     "c" : "ear-training",
+     "l" : "Ear training",
+     "s" : "music.skill"
+    },
+    {
+     "c" : "math.proportion",
+     "d" : "Mathematics",
+     "l" : "Proportion and ratio",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : null,
+   "title" : null,
+   "url" : "https://www.youtube.com/watch?v=Uft6cHgMewY"
+  },
+  {
+   "channel" : "Enjoy Classical Music",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/UqfUm7kyj7s",
+   "id" : "UqfUm7kyj7s",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 24,
+     "page" : "Music Intermediate I — Lessons 24.01–24.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 24,
+     "page" : "Music Intermediate II — Lessons 24.01–24.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 24,
+     "page" : "Music Intermediate III: Module 24 Strings Overview"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 37,
+     "page" : "Music Intermediate III: Final Music Review Project"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/UqfUm7kyj7s/hqdefault.jpg",
+   "title" : "The Sections of the Orchestra: Strings",
+   "url" : "https://www.youtube.com/watch?v=UqfUm7kyj7s"
+  },
+  {
+   "channel" : "ExtremeVEVO",
+   "courses" : [],
+   "crossRefs" : {},
+   "disposition" : "dropped-in-renovation",
+   "embed" : "https://www.youtube-nocookie.com/embed/UrIiLvg58SY",
+   "id" : "UrIiLvg58SY",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/UrIiLvg58SY/hqdefault.jpg",
+   "title" : "Extreme - More Than Words (Official Music Video)",
+   "url" : "https://www.youtube.com/watch?v=UrIiLvg58SY"
+  },
+  {
+   "channel" : "Dan Baker",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/W2UzLIQxgTk",
+   "id" : "W2UzLIQxgTk",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 2,
+     "page" : "Music Intermediate I — Lessons 2.1–2.4"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 2,
+     "page" : "Music Intermediate II — Module 2 · Parameters of Music, Part 2"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 34,
+     "page" : "Music Intermediate II — Lessons 34.01–34.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 2,
+     "page" : "Music Intermediate III: Lesson 2.1 to 2.4 Expressive Qualities, Tone, and History"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "timbre",
+     "l" : "Timbre and tone",
+     "s" : "music.element"
+    },
+    {
+     "c" : "elements",
+     "l" : "Elements of music (overview)",
+     "s" : "music.element"
+    },
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/W2UzLIQxgTk/hqdefault.jpg",
+   "title" : "Tone - What is it and how do we get it?",
+   "url" : "https://www.youtube.com/watch?v=W2UzLIQxgTk"
+  },
+  {
+   "channel" : "Music Discoveries Piano",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/WOvy0WxcpKU",
+   "id" : "WOvy0WxcpKU",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 29,
+     "page" : "Music Intermediate I — Lessons 29.01–29.02"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 30,
+     "page" : "Music Intermediate I — Lessons 30.01–30.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 29,
+     "page" : "Music Intermediate II — Lessons 29.01–29.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 30,
+     "page" : "Music Intermediate II — Lessons 30.01–30.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 29,
+     "page" : "Music Intermediate III: Brass I, Trumpet and Accidentals"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 30,
+     "page" : "Music Intermediate III: Brass II, The French Horn"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 36,
+     "page" : "Music Intermediate III: Lesson 36 Comprehensive Review"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "notation",
+     "l" : "Notation and reading music",
+     "s" : "music.element"
+    },
+    {
+     "c" : "piano",
+     "l" : "Piano",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/WOvy0WxcpKU/hqdefault.jpg",
+   "title" : "What are sharps, flats and naturals?",
+   "url" : "https://www.youtube.com/watch?v=WOvy0WxcpKU"
+  },
+  {
+   "channel" : "TED-Ed",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Xcpc8VDsv3c",
+   "id" : "Xcpc8VDsv3c",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 24,
+     "page" : "Music Intermediate I — Lessons 24.01–24.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 24,
+     "page" : "Music Intermediate II — Lessons 24.01–24.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "baroque",
+     "l" : "Baroque",
+     "s" : "music.era"
+    },
+    {
+     "c" : "vivaldi",
+     "l" : "Antonio Vivaldi",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "appreciation",
+     "l" : "Listening and appreciation",
+     "s" : "music.skill"
+    },
+    {
+     "c" : "ela.narrative-in-music",
+     "d" : "English Language Arts",
+     "l" : "Story told without words",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Xcpc8VDsv3c/hqdefault.jpg",
+   "title" : "Why should you listen to Vivaldi's \"Four Seasons\"? - Betsy Schwarm",
+   "url" : "https://www.youtube.com/watch?v=Xcpc8VDsv3c"
+  },
+  {
+   "channel" : "The Trombone Channel",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/XtnoejeUylc",
+   "id" : "XtnoejeUylc",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 31,
+     "page" : "Music Intermediate I — Lessons 31.01–31.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 31,
+     "page" : "Music Intermediate II — Lessons 31.01–31.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 31,
+     "page" : "Music Intermediate III: Brass III, The Trombone"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "trombone",
+     "l" : "Trombone",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/XtnoejeUylc/hqdefault.jpg",
+   "title" : "The History of the Trombone",
+   "url" : "https://www.youtube.com/watch?v=XtnoejeUylc"
+  },
+  {
+   "channel" : "The Mento Zone",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/YfT0irsgB3Q",
+   "id" : "YfT0irsgB3Q",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 3,
+     "page" : "Music Intermediate I — Lesson 3.1 & 3.2"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 34,
+     "page" : "Music Intermediate I — Module 34: Music Review Part 1"
+    },
+    {
+     "course" : "mi-2",
+     "module" : null,
+     "page" : "Music Intermediate II — Source Harvest (video + content map)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 3,
+     "page" : "Music Intermediate II — Lessons 3.1–3.2"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 34,
+     "page" : "Music Intermediate II — Lessons 34.01–34.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : null,
+     "page" : "2-dot-1-expressive-qualities.html"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 3,
+     "page" : "Music Intermediate III: Lesson 3.1 to 3.2 Rhythm in Detail"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 34,
+     "page" : "Music Intermediate III: Lesson 34 Music Review Part 1"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "counting",
+     "l" : "Counting rhythms",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/YfT0irsgB3Q/hqdefault.jpg",
+   "title" : "How to Count Basic Rhythms (Part 1)",
+   "url" : "https://www.youtube.com/watch?v=YfT0irsgB3Q"
+  },
+  {
+   "channel" : "The Cleveland Orchestra",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/Z4ZbiE3nG2g",
+   "id" : "Z4ZbiE3nG2g",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 27,
+     "page" : "Music Intermediate I — Lessons 27.01–27.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 27,
+     "page" : "Music Intermediate II — Lessons 27.01–27.04"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 27,
+     "page" : "Music Intermediate III: Woodwinds I, Flute and Oboe"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "oboe",
+     "l" : "Oboe",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/Z4ZbiE3nG2g/hqdefault.jpg",
+   "title" : "Choose Your Instrument! | Oboe",
+   "url" : "https://www.youtube.com/watch?v=Z4ZbiE3nG2g"
+  },
+  {
+   "channel" : "TED-Ed",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/ZN41d7Txcq0",
+   "id" : "ZN41d7Txcq0",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 3,
+     "page" : "Music Intermediate I — Lesson 3.1 & 3.2"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 3,
+     "page" : "Music Intermediate II — Lessons 3.1–3.2"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 3,
+     "page" : "Music Intermediate III: Lesson 3.1 to 3.2 Rhythm in Detail"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "notation",
+     "l" : "Notation and reading music",
+     "s" : "music.element"
+    },
+    {
+     "c" : "sight-reading",
+     "l" : "Reading notation",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/ZN41d7Txcq0/hqdefault.jpg",
+   "title" : "How to read music - Tim Hansen",
+   "url" : "https://www.youtube.com/watch?v=ZN41d7Txcq0"
+  },
+  {
+   "channel" : "Release - Topic",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/_P-Hjja5VHc",
+   "id" : "_P-Hjja5VHc",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 15,
+     "page" : "Music of the World - Lesson 15.01"
+    },
+    {
+     "course" : "motw",
+     "module" : 18,
+     "page" : "Music of the World - Lesson 18.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "andes",
+     "l" : "Andes and Peru",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/_P-Hjja5VHc/hqdefault.jpg",
+   "title" : "Kacharpaya",
+   "url" : "https://www.youtube.com/watch?v=_P-Hjja5VHc"
+  },
+  {
+   "channel" : "Mr. Henry's Music World",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/_SP_3xuuv6g",
+   "id" : "_SP_3xuuv6g",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 28,
+     "page" : "Music Intermediate I — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 28,
+     "page" : "Music Intermediate II — Lessons 28.01–28.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 28,
+     "page" : "Music Intermediate III: Woodwinds II, Clarinet and Bassoon"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "intervals",
+     "l" : "Intervals",
+     "s" : "music.element"
+    },
+    {
+     "c" : "math.proportion",
+     "d" : "Mathematics",
+     "l" : "Proportion and ratio",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/_SP_3xuuv6g/hqdefault.jpg",
+   "title" : "Music Theory for Beginners: Intervals",
+   "url" : "https://www.youtube.com/watch?v=_SP_3xuuv6g"
+  },
+  {
+   "channel" : "MusicTheoryAcademy",
+   "courses" : [
+    "mt-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/a34qYxvRtJU",
+   "id" : "a34qYxvRtJU",
+   "lessons" : [
+    {
+     "course" : "mt-1",
+     "module" : 11,
+     "page" : "M/J Music Theory 1 — Lesson 11.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "scales",
+     "l" : "Scales",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/a34qYxvRtJU/hqdefault.jpg",
+   "title" : "Minor Scales - Natural, harmonic and melodic explained",
+   "url" : "https://www.youtube.com/watch?v=a34qYxvRtJU"
+  },
+  {
+   "channel" : "Enjoy Classical Music",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/a9F20aAqXhg",
+   "id" : "a9F20aAqXhg",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 29,
+     "page" : "Music Intermediate I — Lessons 29.01–29.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 29,
+     "page" : "Music Intermediate II — Lessons 29.01–29.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 29,
+     "page" : "Music Intermediate III: Brass I, Trumpet and Accidentals"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "notation",
+     "l" : "Notation and reading music",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/a9F20aAqXhg/hqdefault.jpg",
+   "title" : "The Sections of the Orchestra: Brass",
+   "url" : "https://www.youtube.com/watch?v=a9F20aAqXhg"
+  },
+  {
+   "channel" : "PianoJFAudioSheet",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/bYIBcgFLwfg",
+   "id" : "bYIBcgFLwfg",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 16,
+     "page" : "Music Intermediate I — Lessons 16.01–16.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 16,
+     "page" : "Music Intermediate II — Lessons 16.01–16.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 16,
+     "page" : "Music Intermediate III: Lesson 16 Beethoven and the Ode to Joy"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "piano",
+     "l" : "Piano",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/bYIBcgFLwfg/hqdefault.jpg",
+   "title" : "Beethoven - Piano Sonata No. 8 in C minor \"Pathétique\", op 13 (Audio+Sheet) [Cziffra]",
+   "url" : "https://www.youtube.com/watch?v=bYIBcgFLwfg"
+  },
+  {
+   "channel" : "Philharmonia Orchestra",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/cK0UFgnrIqY",
+   "id" : "cK0UFgnrIqY",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 30,
+     "page" : "Music Intermediate I — Lessons 30.01–30.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 30,
+     "page" : "Music Intermediate II — Lessons 30.01–30.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 30,
+     "page" : "Music Intermediate III: Brass II, The French Horn"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "french-horn",
+     "l" : "French horn",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/cK0UFgnrIqY/hqdefault.jpg",
+   "title" : "Instrument: Horn",
+   "url" : "https://www.youtube.com/watch?v=cK0UFgnrIqY"
+  },
+  {
+   "channel" : "Earl Scruggs - Topic",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/cKw38eqVyNI",
+   "id" : "cKw38eqVyNI",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 9,
+     "page" : "Music of the World - Lesson 9.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "country",
+     "l" : "Country and bluegrass",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "appalachia",
+     "l" : "Appalachia and the American South",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/cKw38eqVyNI/hqdefault.jpg",
+   "title" : "Foggy Mountain Breakdown",
+   "url" : "https://www.youtube.com/watch?v=cKw38eqVyNI"
+  },
+  {
+   "channel" : "Still Watching Netflix",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/cgZOrlMku0c",
+   "id" : "cgZOrlMku0c",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "korea",
+     "l" : "Korea",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/cgZOrlMku0c/hqdefault.jpg",
+   "title" : "KPop Demon Hunters | The Birth of \"Golden\" | Netflix",
+   "url" : "https://www.youtube.com/watch?v=cgZOrlMku0c"
+  },
+  {
+   "channel" : "BABYMONSTER",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/cxhqqpVk65Q",
+   "id" : "cxhqqpVk65Q",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "korea",
+     "l" : "Korea",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/cxhqqpVk65Q/hqdefault.jpg",
+   "title" : "BABYMONSTER - ‘DRIP’ PERFORMANCE VIDEO",
+   "url" : "https://www.youtube.com/watch?v=cxhqqpVk65Q"
+  },
+  {
+   "channel" : "BillieEilishVEVO",
+   "courses" : [],
+   "crossRefs" : {},
+   "disposition" : "dropped-in-renovation",
+   "embed" : "https://www.youtube-nocookie.com/embed/d5gf9dXbPi0",
+   "id" : "d5gf9dXbPi0",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/d5gf9dXbPi0/hqdefault.jpg",
+   "title" : "Billie Eilish - BIRDS OF A FEATHER (Official Lyric Video)",
+   "url" : "https://www.youtube.com/watch?v=d5gf9dXbPi0"
+  },
+  {
+   "channel" : "Martin Gonzalez",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/dJ0AkP_BFhs",
+   "id" : "dJ0AkP_BFhs",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 11,
+     "page" : "Music Intermediate I — Lessons 11.01–11.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 11,
+     "page" : "Music Intermediate II — Lessons 11.01–11.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "sight-reading",
+     "l" : "Reading notation",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/dJ0AkP_BFhs/hqdefault.jpg",
+   "title" : "Confutatis Amadeus movie plus scrolling music score",
+   "url" : "https://www.youtube.com/watch?v=dJ0AkP_BFhs"
+  },
+  {
+   "channel" : "Rodgers & Hammerstein",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/drnBMAEA3AM",
+   "id" : "drnBMAEA3AM",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 10,
+     "page" : "Music Intermediate I — Module 10: Reading and Singing Music"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 10,
+     "page" : "Music Intermediate II — Lessons 10.01–10.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 10,
+     "page" : "Music Intermediate III: Lesson 10.1 to 10.4 Reading and Singing Music"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "musical-theatre",
+     "l" : "Musical theatre and film",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/drnBMAEA3AM/hqdefault.jpg",
+   "title" : "\"Do-Re-Mi\" - THE SOUND OF MUSIC (1965)",
+   "url" : "https://www.youtube.com/watch?v=drnBMAEA3AM"
+  },
+  {
+   "channel" : "Music Rudiments Sounds",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/edScGrfl50M",
+   "id" : "edScGrfl50M",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 33,
+     "page" : "Music Intermediate I — Lessons 33.01–33.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 33,
+     "page" : "Music Intermediate II — Lessons 33.01–33.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "scales",
+     "l" : "Scales",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/edScGrfl50M/hqdefault.jpg",
+   "title" : "C Major Scale",
+   "url" : "https://www.youtube.com/watch?v=edScGrfl50M"
+  },
+  {
+   "channel" : "BrainFacts.org",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/fSbrYAwTGkA",
+   "id" : "fSbrYAwTGkA",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 1,
+     "page" : "Music Intermediate I — Lesson 1.1"
+    },
+    {
+     "course" : "mi-2",
+     "module" : null,
+     "page" : "Music Intermediate II — Source Harvest (video + content map)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 1,
+     "page" : "Music Intermediate II — Lessons 1.01–1.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : null,
+     "page" : "2-dot-1-expressive-qualities.html"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "science.perception",
+     "d" : "Science",
+     "l" : "Perception and the brain",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/fSbrYAwTGkA/hqdefault.jpg",
+   "title" : "Brain Rhythms - How Do We Feel The Beat?",
+   "url" : "https://www.youtube.com/watch?v=fSbrYAwTGkA"
+  },
+  {
+   "channel" : "HYBE LABELS",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/gdZLi9oWNZg",
+   "id" : "gdZLi9oWNZg",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 17,
+     "page" : "Music of the World - Lesson 17.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "korea",
+     "l" : "Korea",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/gdZLi9oWNZg/hqdefault.jpg",
+   "title" : "BTS (방탄소년단) 'Dynamite' Official MV",
+   "url" : "https://www.youtube.com/watch?v=gdZLi9oWNZg"
+  },
+  {
+   "channel" : "Andre Tonelli",
+   "courses" : [
+    "mt-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/hQm0yNwZHjQ",
+   "id" : "hQm0yNwZHjQ",
+   "lessons" : [
+    {
+     "course" : "mt-1",
+     "module" : 17,
+     "page" : "M/J Music Theory 1 — Lesson 17.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/hQm0yNwZHjQ/hqdefault.jpg",
+   "title" : "TRIADS: A Music Lesson for Beginners (and Pros...)",
+   "url" : "https://www.youtube.com/watch?v=hQm0yNwZHjQ"
+  },
+  {
+   "channel" : "Learn English by Pocket Passport",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/hXCwQB9De88",
+   "id" : "hXCwQB9De88",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 2,
+     "page" : "Music Intermediate I — Lessons 2.1–2.4"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 7,
+     "page" : "Music Intermediate I — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 2,
+     "page" : "Music Intermediate II — Module 2 · Parameters of Music, Part 2"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 7,
+     "page" : "Music Intermediate II — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 2,
+     "page" : "Music Intermediate III: Lesson 2.1 to 2.4 Expressive Qualities, Tone, and History"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 7,
+     "page" : "Music Intermediate III: Lesson 7.1 to 7.2 Music History and Elvis Presley"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "elements",
+     "l" : "Elements of music (overview)",
+     "s" : "music.element"
+    },
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    },
+    {
+     "c" : "appreciation",
+     "l" : "Listening and appreciation",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/hXCwQB9De88/hqdefault.jpg",
+   "title" : "History of Music Fun Facts | World Culture",
+   "url" : "https://www.youtube.com/watch?v=hXCwQB9De88"
+  },
+  {
+   "channel" : "Glasgow University Chapel Choir",
+   "courses" : [],
+   "crossRefs" : {
+    "ela" : [
+     {
+      "author" : "Johann Wolfgang von Goethe",
+      "grade" : null,
+      "id" : "clt-faust-part-1",
+      "title" : "Faust — Part 1",
+      "via" : "Goethe"
+     }
+    ]
+   },
+   "disposition" : "dropped-in-renovation",
+   "embed" : "https://www.youtube-nocookie.com/embed/ha6pGK6ZnXE",
+   "id" : "ha6pGK6ZnXE",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "voice",
+     "l" : "Voice and choir",
+     "s" : "music.instrument"
+    },
+    {
+     "c" : "ela.poetry-set-to-music",
+     "d" : "English Language Arts",
+     "l" : "Poetry set to music",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/ha6pGK6ZnXE/hqdefault.jpg",
+   "title" : "Gaudeamus Igitur - recorded June 2021",
+   "url" : "https://www.youtube.com/watch?v=ha6pGK6ZnXE"
+  },
+  {
+   "channel" : "Fantastic Mr. Cox",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/ikXL0dODWGI",
+   "id" : "ikXL0dODWGI",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 20,
+     "page" : "Music Intermediate I — Lessons 20.01–20.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 20,
+     "page" : "Music Intermediate II — Lessons 20.01–20.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 20,
+     "page" : "Music Intermediate III: Lesson 20 Memorizing Rhythmic Notation"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "counting",
+     "l" : "Counting rhythms",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/ikXL0dODWGI/hqdefault.jpg",
+   "title" : "The Fruit Beat (Extended Mix) - Fruit Ninja Gameplay | Rhythm Syllables Clap Along For Kids",
+   "url" : "https://www.youtube.com/watch?v=ikXL0dODWGI"
+  },
+  {
+   "channel" : "BLACKPINK",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/ioNng23DkIM",
+   "id" : "ioNng23DkIM",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 17,
+     "page" : "Music of the World - Lesson 17.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "korea",
+     "l" : "Korea",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/ioNng23DkIM/hqdefault.jpg",
+   "title" : "BLACKPINK - 'How You Like That' M/V",
+   "url" : "https://www.youtube.com/watch?v=ioNng23DkIM"
+  },
+  {
+   "channel" : "Breaking Barlines: Music with Aron Bernstein",
+   "courses" : [
+    "mt-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/ioZ8Wy9WI70",
+   "id" : "ioZ8Wy9WI70",
+   "lessons" : [
+    {
+     "course" : "mt-1",
+     "module" : 16,
+     "page" : "M/J Music Theory 1 — Lesson 16.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/ioZ8Wy9WI70/hqdefault.jpg",
+   "title" : "Music Theory: Intro to Triads",
+   "url" : "https://www.youtube.com/watch?v=ioZ8Wy9WI70"
+  },
+  {
+   "channel" : "Hey! Quiz - Kpop",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/iq_6mpO_45s",
+   "id" : "iq_6mpO_45s",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "pop",
+     "l" : "Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "korea",
+     "l" : "Korea",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/iq_6mpO_45s/hqdefault.jpg",
+   "title" : "Top 100 Most VIEWED KPOP Songs of All Time",
+   "url" : "https://www.youtube.com/watch?v=iq_6mpO_45s"
+  },
+  {
+   "channel" : "Rosa Music",
+   "courses" : [],
+   "crossRefs" : {},
+   "disposition" : "dropped-in-renovation",
+   "embed" : "https://www.youtube-nocookie.com/embed/k1-TrAvp_xs",
+   "id" : "k1-TrAvp_xs",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical-period",
+     "l" : "Classical period",
+     "s" : "music.era"
+    },
+    {
+     "c" : "mozart",
+     "l" : "Wolfgang Amadeus Mozart",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/k1-TrAvp_xs/hqdefault.jpg",
+   "title" : "Mozart - Lacrimosa",
+   "url" : "https://www.youtube.com/watch?v=k1-TrAvp_xs"
+  },
+  {
+   "channel" : "TEDx Talks",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/kDqVwmTCNGA",
+   "id" : "kDqVwmTCNGA",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 6,
+     "page" : "Music Intermediate I — Lessons 6.01–6.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 6,
+     "page" : "Music Intermediate II — Module 6: Expressive Qualities"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 6,
+     "page" : "Music Intermediate III: Lesson 6.1 to 6.2 Expressive Qualities"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    },
+    {
+     "c" : "science.perception",
+     "d" : "Science",
+     "l" : "Perception and the brain",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/kDqVwmTCNGA/hqdefault.jpg",
+   "title" : "Music as a Language: How songs convey emotion | Nick Zupancic | TEDxCranbrookSchools",
+   "url" : "https://www.youtube.com/watch?v=kDqVwmTCNGA"
+  },
+  {
+   "channel" : "Sarah Willis",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/m1FSR3wKgrk",
+   "id" : "m1FSR3wKgrk",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 30,
+     "page" : "Music Intermediate I — Lessons 30.01–30.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 30,
+     "page" : "Music Intermediate II — Lessons 30.01–30.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "latin",
+     "l" : "Latin American popular",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "classical-period",
+     "l" : "Classical period",
+     "s" : "music.era"
+    },
+    {
+     "c" : "mozart",
+     "l" : "Wolfgang Amadeus Mozart",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/m1FSR3wKgrk/hqdefault.jpg",
+   "title" : "Mozart y Mambo - Rondo alla Mambo!",
+   "url" : "https://www.youtube.com/watch?v=m1FSR3wKgrk"
+  },
+  {
+   "channel" : "Pentatonix",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/m4VGPIZ_wwo",
+   "id" : "m4VGPIZ_wwo",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 5,
+     "page" : "Music Intermediate I — Lessons 5.01–5.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 5,
+     "page" : "Music Intermediate II — Lessons 5.01–5.04"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    },
+    {
+     "c" : "voice",
+     "l" : "Voice and choir",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/m4VGPIZ_wwo/hqdefault.jpg",
+   "title" : "Pentatonix - \"I Just Called To Say I Love You\" - OFFICIAL VIDEO",
+   "url" : "https://www.youtube.com/watch?v=m4VGPIZ_wwo"
+  },
+  {
+   "channel" : "Stealth banning and comment ghosting is despicable",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/mGQLXRTl3Z0",
+   "id" : "mGQLXRTl3Z0",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 26,
+     "page" : "Music Intermediate I — Lessons 26.01–26.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "baroque",
+     "l" : "Baroque",
+     "s" : "music.era"
+    },
+    {
+     "c" : "bach",
+     "l" : "Johann Sebastian Bach",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "cello",
+     "l" : "Cello",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/mGQLXRTl3Z0/hqdefault.jpg",
+   "title" : "Mischa Maisky plays Bach Cello Suite No.1 in G (full)",
+   "url" : "https://www.youtube.com/watch?v=mGQLXRTl3Z0"
+  },
+  {
+   "channel" : "NPR Music",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/maDO3z41wXA",
+   "id" : "maDO3z41wXA",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 15,
+     "page" : "Music of the World - Lesson 15.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "indigenous",
+     "l" : "Indigenous and First Nations",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "native-america",
+     "l" : "Native America",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/maDO3z41wXA/hqdefault.jpg",
+   "title" : "Northern Cree: Tiny Desk (Home) Concert",
+   "url" : "https://www.youtube.com/watch?v=maDO3z41wXA"
+  },
+  {
+   "channel" : "Trent Hamilton",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/n15d1AEMKTc",
+   "id" : "n15d1AEMKTc",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 31,
+     "page" : "Music Intermediate I — Lessons 31.01–31.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 31,
+     "page" : "Music Intermediate II — Lessons 31.01–31.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "trombone",
+     "l" : "Trombone",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/n15d1AEMKTc/hqdefault.jpg",
+   "title" : "The Trombone Family",
+   "url" : "https://www.youtube.com/watch?v=n15d1AEMKTc"
+  },
+  {
+   "channel" : "World Science Festival",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/ne6tB2KiZuk",
+   "id" : "ne6tB2KiZuk",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 1,
+     "page" : "Music of the World - Lesson 1.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "scales",
+     "l" : "Scales",
+     "s" : "music.element"
+    },
+    {
+     "c" : "math.proportion",
+     "d" : "Mathematics",
+     "l" : "Proportion and ratio",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/ne6tB2KiZuk/hqdefault.jpg",
+   "title" : "Bobby McFerrin Demonstrates the Power of the Pentatonic Scale | World Science Festival",
+   "url" : "https://www.youtube.com/watch?v=ne6tB2KiZuk"
+  },
+  {
+   "channel" : "Baby Dance School",
+   "courses" : [
+    "music-k"
+   ],
+   "crossRefs" : {},
+   "disposition" : "live-canvas",
+   "embed" : "https://www.youtube-nocookie.com/embed/oA3DxNWkNfg",
+   "id" : "oA3DxNWkNfg",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [],
+   "thumb" : "https://i.ytimg.com/vi/oA3DxNWkNfg/hqdefault.jpg",
+   "title" : "She'll be coming round the mountain - Baby Dance School",
+   "url" : "https://www.youtube.com/watch?v=oA3DxNWkNfg"
+  },
+  {
+   "channel" : "David Hartley",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/oTFO4sLZwII",
+   "id" : "oTFO4sLZwII",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 22,
+     "page" : "Music Intermediate I — Lessons 22.01–22.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 22,
+     "page" : "Music Intermediate II — Lessons 22.01–22.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 22,
+     "page" : "Music Intermediate III: Lesson 22 Conducting, Marking the Beat"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "meter",
+     "l" : "Meter and time signature",
+     "s" : "music.element"
+    },
+    {
+     "c" : "conducting",
+     "l" : "Conducting",
+     "s" : "music.skill"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/oTFO4sLZwII/hqdefault.jpg",
+   "title" : "Time Signatures: Explained!",
+   "url" : "https://www.youtube.com/watch?v=oTFO4sLZwII"
+  },
+  {
+   "channel" : "Elvis Presley - Topic",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/pQX_u1igwmk",
+   "id" : "pQX_u1igwmk",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 7,
+     "page" : "Music Intermediate I — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 7,
+     "page" : "Music Intermediate II — Lessons 7.01–7.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "presley",
+     "l" : "Elvis Presley",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/pQX_u1igwmk/hqdefault.jpg",
+   "title" : "I'll Never Know",
+   "url" : "https://www.youtube.com/watch?v=pQX_u1igwmk"
+  },
+  {
+   "channel" : "MusicProfessor",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/qARNj6vpe_g",
+   "id" : "qARNj6vpe_g",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 26,
+     "page" : "Music Intermediate I — Lessons 26.01–26.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 26,
+     "page" : "Music Intermediate II — Lessons 26.01–26.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "cello",
+     "l" : "Cello",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/qARNj6vpe_g/hqdefault.jpg",
+   "title" : "Tracing the Origins: A Journey Through the History of the Cello 🎻",
+   "url" : "https://www.youtube.com/watch?v=qARNj6vpe_g"
+  },
+  {
+   "channel" : "TV5MONDE",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/qg5h1kaQnug",
+   "id" : "qg5h1kaQnug",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 12,
+     "page" : "Music of the World - Lesson 12.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "arabic",
+     "l" : "Arabic and Middle Eastern",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "egypt-arab",
+     "l" : "Egypt and the Arab world",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "oud",
+     "l" : "Oud",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/qg5h1kaQnug/hqdefault.jpg",
+   "title" : "Marcel Khalifé : la paix au son du oud",
+   "url" : "https://www.youtube.com/watch?v=qg5h1kaQnug"
+  },
+  {
+   "channel" : "LineChaos",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/qotloiNF-M4",
+   "id" : "qotloiNF-M4",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/qotloiNF-M4/hqdefault.jpg",
+   "title" : "Line Rider - Für Elise - Ludwig Beethoven",
+   "url" : "https://www.youtube.com/watch?v=qotloiNF-M4"
+  },
+  {
+   "channel" : "Moomi Read Alouds",
+   "courses" : [
+    "music-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "live-canvas",
+   "embed" : "https://www.youtube-nocookie.com/embed/rdRdl9t3ozw",
+   "id" : "rdRdl9t3ozw",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "science.acoustics",
+     "d" : "Science",
+     "l" : "Acoustics and how sound works",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/rdRdl9t3ozw/hqdefault.jpg",
+   "title" : "🔊 How to Create Video Sound Effects | Foley Art",
+   "url" : "https://www.youtube.com/watch?v=rdRdl9t3ozw"
+  },
+  {
+   "channel" : "Verve Records",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/s61-e29Vr6Q",
+   "id" : "s61-e29Vr6Q",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 14,
+     "page" : "Music of the World - Lesson 14.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "brazil",
+     "l" : "Brazil",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/s61-e29Vr6Q/hqdefault.jpg",
+   "title" : "Stan Getz feat. Astrud Gilberto - The Girl From Ipanema (Official Video)",
+   "url" : "https://www.youtube.com/watch?v=s61-e29Vr6Q"
+  },
+  {
+   "channel" : "kodomo kids",
+   "courses" : [
+    "music-k"
+   ],
+   "crossRefs" : {},
+   "disposition" : "live-canvas",
+   "embed" : "https://www.youtube-nocookie.com/embed/sM8HskUJx2w",
+   "id" : "sM8HskUJx2w",
+   "lessons" : [],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "folk",
+     "l" : "Folk and traditional",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "latin",
+     "l" : "Latin American popular",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "mexico",
+     "l" : "Mexico",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/sM8HskUJx2w/hqdefault.jpg",
+   "title" : "LA BAMBA Song and Dance | Easy Mexican Folk Dance for Kids",
+   "url" : "https://www.youtube.com/watch?v=sM8HskUJx2w"
+  },
+  {
+   "channel" : "Lindsey Stirling",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/sf6LD2B_kDQ",
+   "id" : "sf6LD2B_kDQ",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 25,
+     "page" : "Music Intermediate I — Lessons 25.01–25.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 25,
+     "page" : "Music Intermediate II — Lessons 25.01–25.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 25,
+     "page" : "Music Intermediate III: Lesson 25 Violin and Viola"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "modern",
+     "l" : "20th century and modern",
+     "s" : "music.era"
+    },
+    {
+     "c" : "violin",
+     "l" : "Violin",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/sf6LD2B_kDQ/hqdefault.jpg",
+   "title" : "Lindsey Stirling - Elements (Dubstep Violin Original Song)",
+   "url" : "https://www.youtube.com/watch?v=sf6LD2B_kDQ"
+  },
+  {
+   "channel" : "Chamber Music Society of Lincoln Center",
+   "courses" : [
+    "mt-1"
+   ],
+   "crossRefs" : {
+    "ela" : [
+     {
+      "author" : "Johann Wolfgang von Goethe",
+      "grade" : null,
+      "id" : "clt-faust-part-1",
+      "title" : "Faust — Part 1",
+      "via" : "Goethe"
+     }
+    ]
+   },
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/sfQeLgFmNEI",
+   "id" : "sfQeLgFmNEI",
+   "lessons" : [
+    {
+     "course" : "mt-1",
+     "module" : 26,
+     "page" : "M/J Music Theory 1 — Lesson 26.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "romantic",
+     "l" : "Romantic",
+     "s" : "music.era"
+    },
+    {
+     "c" : "schubert",
+     "l" : "Franz Schubert",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "piano",
+     "l" : "Piano",
+     "s" : "music.instrument"
+    },
+    {
+     "c" : "ela.poetry-set-to-music",
+     "d" : "English Language Arts",
+     "l" : "Poetry set to music",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/sfQeLgFmNEI/hqdefault.jpg",
+   "title" : "Schubert: \"Erlkönig\" for Voice and Piano, D. 328, Op. 1",
+   "url" : "https://www.youtube.com/watch?v=sfQeLgFmNEI"
+  },
+  {
+   "channel" : "Music Lessons with Mrs. Morris",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/t9Mo-bkl4ko",
+   "id" : "t9Mo-bkl4ko",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 1,
+     "page" : "Music Intermediate I — Lesson 1.1"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 34,
+     "page" : "Music Intermediate I — Module 34: Music Review Part 1"
+    },
+    {
+     "course" : "mi-2",
+     "module" : null,
+     "page" : "Music Intermediate II — Source Harvest (video + content map)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 1,
+     "page" : "Music Intermediate II — Lessons 1.01–1.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 18,
+     "page" : "Music Intermediate II — Lessons 18.01–18.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 34,
+     "page" : "Music Intermediate II — Lessons 34.01–34.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : null,
+     "page" : "2-dot-1-expressive-qualities.html"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 1,
+     "page" : "Music Intermediate III: Lesson 1.1 The Five Parameters"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 34,
+     "page" : "Music Intermediate III: Lesson 34 Music Review Part 1"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "elements",
+     "l" : "Elements of music (overview)",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/t9Mo-bkl4ko/hqdefault.jpg",
+   "title" : "Elements of Music",
+   "url" : "https://www.youtube.com/watch?v=t9Mo-bkl4ko"
+  },
+  {
+   "channel" : "Traum Piano",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/tGSDVrnjDqI",
+   "id" : "tGSDVrnjDqI",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 11,
+     "page" : "Music Intermediate I — Lessons 11.01–11.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 11,
+     "page" : "Music Intermediate II — Lessons 11.01–11.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 18,
+     "page" : "Music Intermediate II — Lessons 18.01–18.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 11,
+     "page" : "Music Intermediate III: Lesson 11.1 to 11.4 Mozart and Quarter Notes"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical-period",
+     "l" : "Classical period",
+     "s" : "music.era"
+    },
+    {
+     "c" : "mozart",
+     "l" : "Wolfgang Amadeus Mozart",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "form",
+     "l" : "Form and structure",
+     "s" : "music.element"
+    },
+    {
+     "c" : "piano",
+     "l" : "Piano",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/tGSDVrnjDqI/hqdefault.jpg",
+   "title" : "Mozart - \"Twinkle Twinkle Little Star\" (12 Variations on \"Ah vous dirai-je, Maman\")",
+   "url" : "https://www.youtube.com/watch?v=tGSDVrnjDqI"
+  },
+  {
+   "channel" : "Brad Harrison Music",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/v44NY4fyxHA",
+   "id" : "v44NY4fyxHA",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 33,
+     "page" : "Music Intermediate I — Lessons 33.01–33.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 33,
+     "page" : "Music Intermediate II — Lessons 33.01–33.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 33,
+     "page" : "Music Intermediate III: Percussion and Major Scales"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "scales",
+     "l" : "Scales",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/v44NY4fyxHA/hqdefault.jpg",
+   "title" : "Major scales: Everything you need to know in 7 minutes",
+   "url" : "https://www.youtube.com/watch?v=v44NY4fyxHA"
+  },
+  {
+   "channel" : "ElvisPresleyVEVO",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/vGJTaP6anOU",
+   "id" : "vGJTaP6anOU",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 7,
+     "page" : "Music Intermediate I — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 7,
+     "page" : "Music Intermediate II — Lessons 7.01–7.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 7,
+     "page" : "Music Intermediate III: Lesson 7.1 to 7.2 Music History and Elvis Presley"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "presley",
+     "l" : "Elvis Presley",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/vGJTaP6anOU/hqdefault.jpg",
+   "title" : "Elvis Presley - Can't Help Falling In Love (Official Audio)",
+   "url" : "https://www.youtube.com/watch?v=vGJTaP6anOU"
+  },
+  {
+   "channel" : "DoodleChaos",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/vcBn04IyELc",
+   "id" : "vcBn04IyELc",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 15,
+     "page" : "Music Intermediate I — Lessons 15.01–15.03"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 16,
+     "page" : "Music Intermediate I — Lessons 16.01–16.03"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 36,
+     "page" : "Music Intermediate I — Lessons 36.01–36.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 15,
+     "page" : "Music Intermediate II — Module 15: Beethoven and Music Symbols, Part 1"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 36,
+     "page" : "Music Intermediate II — Lesson 36 Music Review Part 3"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 15,
+     "page" : "Music Intermediate III: Lesson 15 Beethoven and Expression Symbols"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "beethoven",
+     "l" : "Ludwig van Beethoven",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/vcBn04IyELc/hqdefault.jpg",
+   "title" : "Line Riders - Beethoven's 5th",
+   "url" : "https://www.youtube.com/watch?v=vcBn04IyELc"
+  },
+  {
+   "channel" : "The Mento Zone",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/vvtglfjHrb4",
+   "id" : "vvtglfjHrb4",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 29,
+     "page" : "Music Intermediate I — Lessons 29.01–29.02"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 30,
+     "page" : "Music Intermediate I — Lessons 30.01–30.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 29,
+     "page" : "Music Intermediate II — Lessons 29.01–29.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "notation",
+     "l" : "Notation and reading music",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/vvtglfjHrb4/hqdefault.jpg",
+   "title" : "Accidentals for Dummies",
+   "url" : "https://www.youtube.com/watch?v=vvtglfjHrb4"
+  },
+  {
+   "channel" : "Tune & Focus",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/w31VXC9AMts",
+   "id" : "w31VXC9AMts",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 26,
+     "page" : "Music Intermediate I — Lessons 26.01–26.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "modern",
+     "l" : "20th century and modern",
+     "s" : "music.era"
+    },
+    {
+     "c" : "piazzolla",
+     "l" : "Astor Piazzolla",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "cello",
+     "l" : "Cello",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/w31VXC9AMts/hqdefault.jpg",
+   "title" : "Ástor Piazzolla - Fuga y Misterio for 12 Celli - Die 12 Cellisten der Deutschen Stiftung Musikleben",
+   "url" : "https://www.youtube.com/watch?v=w31VXC9AMts"
+  },
+  {
+   "channel" : "Khan Academy Partners",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/wQHcz7U01M4",
+   "id" : "wQHcz7U01M4",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 12,
+     "page" : "Music Intermediate I — Lessons 12.01–12.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 12,
+     "page" : "Music Intermediate II — Lessons 12.01–12.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 18,
+     "page" : "Music Intermediate II — Lessons 18.01–18.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "rhythm",
+     "l" : "Rhythm and beat",
+     "s" : "music.element"
+    },
+    {
+     "c" : "meter",
+     "l" : "Meter and time signature",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/wQHcz7U01M4/hqdefault.jpg",
+   "title" : "Lesson 1: Note values, duration, and time signatures | Music basics | Music | Khan Academy",
+   "url" : "https://www.youtube.com/watch?v=wQHcz7U01M4"
+  },
+  {
+   "channel" : "KATSEYE",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/wxp3xSkbVRU",
+   "id" : "wxp3xSkbVRU",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/wxp3xSkbVRU/hqdefault.jpg",
+   "title" : "“Gabriela” Dance Break Version (Live from THE BEAUTIFUL CHAOS TOUR) | KATSEYE",
+   "url" : "https://www.youtube.com/watch?v=wxp3xSkbVRU"
+  },
+  {
+   "channel" : "AbbaVEVO",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/xFrGuyw1V8s",
+   "id" : "xFrGuyw1V8s",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 17,
+     "page" : "Music of the World - Lesson 17.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "pop",
+     "l" : "Pop",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/xFrGuyw1V8s/hqdefault.jpg",
+   "title" : "ABBA - Dancing Queen (Official Music Video)",
+   "url" : "https://www.youtube.com/watch?v=xFrGuyw1V8s"
+  },
+  {
+   "channel" : "Jesse Strickland",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/xR2e8B8bAE8",
+   "id" : "xR2e8B8bAE8",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 4,
+     "page" : "Music Intermediate I — Lessons 4.01–4.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 4,
+     "page" : "Music Intermediate II — Lessons 4.01–4.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 4,
+     "page" : "Music Intermediate III: Lesson 4.1 to 4.3 Melody"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "pop",
+     "l" : "Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "melody",
+     "l" : "Melody",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/xR2e8B8bAE8/hqdefault.jpg",
+   "title" : "Why Are Pop Songs So Dang Catchy? - TWO MINUTE MUSIC THEORY #20",
+   "url" : "https://www.youtube.com/watch?v=xR2e8B8bAE8"
+  },
+  {
+   "channel" : "Five Minute Mozart",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/xfuUhjvbF24",
+   "id" : "xfuUhjvbF24",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 24,
+     "page" : "Music Intermediate I — Lessons 24.01–24.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 24,
+     "page" : "Music Intermediate II — Lessons 24.01–24.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 24,
+     "page" : "Music Intermediate III: Module 24 Strings Overview"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "baroque",
+     "l" : "Baroque",
+     "s" : "music.era"
+    },
+    {
+     "c" : "classical-period",
+     "l" : "Classical period",
+     "s" : "music.era"
+    },
+    {
+     "c" : "mozart",
+     "l" : "Wolfgang Amadeus Mozart",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "vivaldi",
+     "l" : "Antonio Vivaldi",
+     "s" : "music.composer"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/xfuUhjvbF24/hqdefault.jpg",
+   "title" : "Antonio Vivaldi | Short Biography | Introduction To The Composer",
+   "url" : "https://www.youtube.com/watch?v=xfuUhjvbF24"
+  },
+  {
+   "channel" : "Mattias Holmgren",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/xhhVuPe9xS8",
+   "id" : "xhhVuPe9xS8",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 4,
+     "page" : "Music Intermediate I — Lessons 4.01–4.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 4,
+     "page" : "Music Intermediate II — Lessons 4.01–4.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 4,
+     "page" : "Music Intermediate III: Lesson 4.1 to 4.3 Melody"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "melody",
+     "l" : "Melody",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/xhhVuPe9xS8/hqdefault.jpg",
+   "title" : "What Makes A Melody Memorable 🎶 Catchy Songs 101",
+   "url" : "https://www.youtube.com/watch?v=xhhVuPe9xS8"
+  },
+  {
+   "channel" : "Bill Monroe - Topic",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/xtpiqdN2lJk",
+   "id" : "xtpiqdN2lJk",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 9,
+     "page" : "Music of the World - Lesson 9.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "country",
+     "l" : "Country and bluegrass",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "appalachia",
+     "l" : "Appalachia and the American South",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/xtpiqdN2lJk/hqdefault.jpg",
+   "title" : "Blue Moon of Kentucky",
+   "url" : "https://www.youtube.com/watch?v=xtpiqdN2lJk"
+  },
+  {
+   "channel" : "Melo Dojo",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/xugt0hF6CNs",
+   "id" : "xugt0hF6CNs",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 5,
+     "page" : "Music Intermediate I — Lessons 5.01–5.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : null,
+     "page" : "Music Intermediate II — Source Harvest (video + content map)"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 34,
+     "page" : "Music Intermediate II — Lessons 34.01–34.02"
+    },
+    {
+     "course" : "mi-3",
+     "module" : null,
+     "page" : "2-dot-1-expressive-qualities.html"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "melody",
+     "l" : "Melody",
+     "s" : "music.element"
+    },
+    {
+     "c" : "harmony",
+     "l" : "Harmony",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/xugt0hF6CNs/hqdefault.jpg",
+   "title" : "What is MELODY and HARMONY in music?",
+   "url" : "https://www.youtube.com/watch?v=xugt0hF6CNs"
+  },
+  {
+   "channel" : "LivingPianosVideos",
+   "courses" : [
+    "mi-1",
+    "mi-2",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/y9jY3G9vdwU",
+   "id" : "y9jY3G9vdwU",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 6,
+     "page" : "Music Intermediate I — Lessons 6.01–6.02"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 6,
+     "page" : "Music Intermediate II — Module 6: Expressive Qualities"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 6,
+     "page" : "Music Intermediate III: Lesson 6.1 to 6.2 Expressive Qualities"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    },
+    {
+     "c" : "science.perception",
+     "d" : "Science",
+     "l" : "Perception and the brain",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/y9jY3G9vdwU/hqdefault.jpg",
+   "title" : "How Music Creates Powerful Emotions",
+   "url" : "https://www.youtube.com/watch?v=y9jY3G9vdwU"
+  },
+  {
+   "channel" : "AP Archive",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/yFGy9VPCN0g",
+   "id" : "yFGy9VPCN0g",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 14,
+     "page" : "Music of the World - Lesson 14.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "latin",
+     "l" : "Latin American popular",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "brazil",
+     "l" : "Brazil",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/yFGy9VPCN0g/hqdefault.jpg",
+   "title" : "Rio's top samba schools parade at the Sambadrome on first night of Carnival",
+   "url" : "https://www.youtube.com/watch?v=yFGy9VPCN0g"
+  },
+  {
+   "channel" : "Minnesota Orchestra",
+   "courses" : [
+    "mi-1"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/yTnhDFxEfwQ",
+   "id" : "yTnhDFxEfwQ",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 32,
+     "page" : "Music Intermediate I — Lessons 32.01–32.02"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "tuba",
+     "l" : "Tuba",
+     "s" : "music.instrument"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/yTnhDFxEfwQ/hqdefault.jpg",
+   "title" : "Guide to the Orchestra: Tuba Demonstration | Minnesota Orchestra",
+   "url" : "https://www.youtube.com/watch?v=yTnhDFxEfwQ"
+  },
+  {
+   "channel" : "Sony Pictures Animation",
+   "courses" : [
+    "mi-1",
+    "mi-3"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/yebNIHKAC4A",
+   "id" : "yebNIHKAC4A",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 21,
+     "page" : "Music Intermediate I — Lessons 21.01–21.03"
+    },
+    {
+     "course" : "mi-3",
+     "module" : 21,
+     "page" : "Music Intermediate III: Lesson 21 K-Pop and the Reading Challenge"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "kpop",
+     "l" : "K-Pop",
+     "s" : "music.genre"
+    },
+    {
+     "c" : "korea",
+     "l" : "Korea",
+     "s" : "music.culture"
+    },
+    {
+     "c" : "expression",
+     "l" : "Expression and mood",
+     "s" : "music.element"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/yebNIHKAC4A/hqdefault.jpg",
+   "title" : "“Golden” Official Lyric Video | KPop Demon Hunters | Sony Animation",
+   "url" : "https://www.youtube.com/watch?v=yebNIHKAC4A"
+  },
+  {
+   "channel" : "Enjoy Classical Music",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/ynpeISCtZng",
+   "id" : "ynpeISCtZng",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 27,
+     "page" : "Music Intermediate I — Lessons 27.01–27.04"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 27,
+     "page" : "Music Intermediate II — Lessons 27.01–27.04"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "classical",
+     "l" : "Classical and art music",
+     "s" : "music.genre"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/ynpeISCtZng/hqdefault.jpg",
+   "title" : "The Sections of the Orchestra: Woodwind",
+   "url" : "https://www.youtube.com/watch?v=ynpeISCtZng"
+  },
+  {
+   "channel" : "Alexandro Querevalú",
+   "courses" : [
+    "motw"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/z1oAJobeMYA",
+   "id" : "z1oAJobeMYA",
+   "lessons" : [
+    {
+     "course" : "motw",
+     "module" : 15,
+     "page" : "Music of the World - Lesson 15.01"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "andes",
+     "l" : "Andes and Peru",
+     "s" : "music.culture"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/z1oAJobeMYA/hqdefault.jpg",
+   "title" : "Alexandro Querevalú - El Condor Pasa Best Live Version",
+   "url" : "https://www.youtube.com/watch?v=z1oAJobeMYA"
+  },
+  {
+   "channel" : "AVROTROS Klassiek",
+   "courses" : [
+    "mi-1",
+    "mi-2"
+   ],
+   "crossRefs" : {},
+   "disposition" : "in-use",
+   "embed" : "https://www.youtube-nocookie.com/embed/zzE-kVadtNw",
+   "id" : "zzE-kVadtNw",
+   "lessons" : [
+    {
+     "course" : "mi-1",
+     "module" : null,
+     "page" : "Music Intermediate I - Source Harvest (videos + text per page)"
+    },
+    {
+     "course" : "mi-1",
+     "module" : 24,
+     "page" : "Music Intermediate I — Lessons 24.01–24.03"
+    },
+    {
+     "course" : "mi-2",
+     "module" : 24,
+     "page" : "Music Intermediate II — Lessons 24.01–24.03"
+    }
+   ],
+   "state" : "ok",
+   "tags" : [
+    {
+     "c" : "baroque",
+     "l" : "Baroque",
+     "s" : "music.era"
+    },
+    {
+     "c" : "vivaldi",
+     "l" : "Antonio Vivaldi",
+     "s" : "music.composer"
+    },
+    {
+     "c" : "ela.narrative-in-music",
+     "d" : "English Language Arts",
+     "l" : "Story told without words",
+     "s" : "concept"
+    }
+   ],
+   "thumb" : "https://i.ytimg.com/vi/zzE-kVadtNw/hqdefault.jpg",
+   "title" : "Vivaldi: Four Seasons/Quattro Stagioni - Janine Jansen - Internationaal Kamermuziek Festival",
+   "url" : "https://www.youtube.com/watch?v=zzE-kVadtNw"
+  }
+ ]
+}

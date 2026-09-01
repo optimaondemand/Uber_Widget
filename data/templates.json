@@ -1,0 +1,88 @@
+{
+ "schema": "ocs-templates/1",
+ "note": "Starter module templates reverse-engineered from the 2026-27 On-Demand builds. Every template is a DRAFT until a subject lead approves it; the approvedBy field is empty on purpose.",
+ "componentTypes": [
+  { "id": "header",        "label": "Section header",        "icon": "🏷️", "canvas": "ContextModuleSubHeader", "description": "A text divider inside a module (Week 3, Unit Assessment)." },
+  { "id": "lesson",        "label": "Interactive lesson",    "icon": "📍", "canvas": "Assignment",     "description": "A GitHub-hosted Optima lesson page embedded in a Canvas assignment. Learn, Explore, Check, Assignment tabs.", "defaultSubmission": "online_text_entry,media_recording" },
+  { "id": "reading",       "label": "Reading",               "icon": "📖", "canvas": "Assignment",     "description": "A chapter, passage, or library title with a short response.", "defaultSubmission": "online_text_entry" },
+  { "id": "video",         "label": "Video",                 "icon": "🎬", "canvas": "Page",           "description": "An Optima video or a Music Library video with a viewing prompt." },
+  { "id": "assignment",    "label": "Assignment",            "icon": "📝", "canvas": "Assignment",     "description": "Teacher-written task with instructions and a submission box.", "defaultSubmission": "online_text_entry,online_upload,media_recording" },
+  { "id": "discussion",    "label": "Discussion",            "icon": "💬", "canvas": "DiscussionTopic","description": "A Canvas discussion prompt (council chamber, Socratic seminar, share-out)." },
+  { "id": "quiz",          "label": "Quiz / check-in",       "icon": "🧠", "canvas": "Quizzes::Quiz",  "description": "Auto-graded and essay questions exported as a Canvas quiz (QTI)." },
+  { "id": "practice",      "label": "Practice",              "icon": "✏️", "canvas": "Assignment",     "description": "Independent practice, Goblins session, or worksheet.", "defaultSubmission": "online_upload,online_text_entry" },
+  { "id": "fluency",       "label": "Fluency routine",       "icon": "🔁", "canvas": "Assignment",     "description": "Weekly ELA fluency read with a recording.", "defaultSubmission": "media_recording,online_text_entry" },
+  { "id": "assessment",    "label": "Unit assessment",       "icon": "🏁", "canvas": "Assignment",     "description": "End-of-unit task page (often paired with a quiz)." },
+  { "id": "project",       "label": "Module project",        "icon": "🎯", "canvas": "Assignment",     "description": "Capstone, exhibit, or unlock challenge that gathers the unit's evidence.", "defaultSubmission": "online_upload,online_text_entry,media_recording" },
+  { "id": "spotlight-vr",  "label": "Spotlight task (VR)",   "icon": "🥽", "canvas": "Assignment",     "description": "Placeholder for the weekly Spotlight or Arthur VR investigation." },
+  { "id": "library-art",   "label": "Art from the library",  "icon": "🖼️", "canvas": "Page",           "description": "An artwork card from the Art Reference Library with looking prompts." },
+  { "id": "library-music", "label": "Music from the library","icon": "🎵", "canvas": "Page",           "description": "A listening card from the Music Reference Library." },
+  { "id": "library-book",  "label": "Book from the library", "icon": "📚", "canvas": "Page",           "description": "A title card from the ELA Reference Library (free or purchase link)." },
+  { "id": "page",          "label": "Content page",          "icon": "📄", "canvas": "Page",           "description": "A Canvas page: Start Here, Course Guide, teacher notes." },
+  { "id": "custom",        "label": "My own resource",       "icon": "🔗", "canvas": "Page",           "description": "Paste a link, embed code, or your own HTML." }
+ ],
+ "templates": [
+  { "id": "ela-weekly-rhythm", "name": "ELA Weekly Rhythm", "subject": "ela", "grades": ["3","4","5"], "status": "draft", "approvedBy": null, "derivedFrom": "3rd and 4th Grade ELA On-Demand 2026-27",
+    "moduleLabel": "Week", "description": "Four novel lessons, a fluency read, and a Friday check-in. Repeats every week inside a book unit.",
+    "slots": [
+      { "type": "header",  "label": "Week {n}", "required": true },
+      { "type": "lesson",  "label": "Lesson {n}-1: Reading + grammar", "required": true },
+      { "type": "lesson",  "label": "Lesson {n}-2: Reading + word study", "required": true },
+      { "type": "lesson",  "label": "Lesson {n}-3: Reading + writing", "required": true },
+      { "type": "lesson",  "label": "Lesson {n}-4: Reading + response", "required": true },
+      { "type": "fluency", "label": "Fluency", "required": true },
+      { "type": "quiz",    "label": "Week {n} Check-In", "required": true, "note": "13 items: grammar, spelling, comprehension, short essay" }
+    ] },
+  { "id": "ss-historian-citizen", "name": "Historian-Citizen Unit", "subject": "social-studies", "grades": ["3","4","5"], "status": "draft", "approvedBy": null, "derivedFrom": "4th Grade Social Studies On-Demand 2026-27 (OAO 3-5 planning table)",
+    "moduleLabel": "Unit", "description": "Lesson A (Enter the Story) and Lesson B (Work of the Historian-Citizen) pairs, then an assessment task and a knowledge-check quiz.",
+    "slots": [
+      { "type": "lesson", "label": "Lesson A: Enter the Story", "required": true, "note": "Reading, image or map, short video, vocabulary" },
+      { "type": "lesson", "label": "Lesson B: Work of the Historian-Citizen", "required": true, "note": "Map Quest, Source Study, Timeline Thread, Council Chamber, Virtue Lens, or Notebook" },
+      { "type": "lesson", "label": "Lesson A", "required": false },
+      { "type": "lesson", "label": "Lesson B", "required": false },
+      { "type": "lesson", "label": "Lesson A", "required": false },
+      { "type": "lesson", "label": "Lesson B: Historian's Notebook synthesis", "required": true },
+      { "type": "spotlight-vr", "label": "Spotlight Task", "required": false },
+      { "type": "assessment", "label": "Unit Assessment task", "required": true },
+      { "type": "quiz", "label": "Unit Assessment quiz", "required": true, "note": "About 14 items: multiple choice plus evidence essays" }
+    ] },
+  { "id": "math-dimensions-unit", "name": "Dimensions Math Unit", "subject": "math", "grades": ["3","4","5"], "status": "draft", "approvedBy": null, "derivedFrom": "3rd and 4th Grade Math On-Demand 2026-27",
+    "moduleLabel": "Unit", "description": "Interactive lessons with built-in fluency checks, Goblins independent practice, and a summative assessment.",
+    "slots": [
+      { "type": "lesson",     "label": "Lesson {u}.01", "required": true },
+      { "type": "lesson",     "label": "Lesson {u}.02", "required": true },
+      { "type": "lesson",     "label": "Lesson {u}.03", "required": false },
+      { "type": "lesson",     "label": "Lesson {u}.04", "required": false },
+      { "type": "practice",   "label": "Goblins Independent Practice", "required": true, "note": "Duplicate the Goblins template and add the class code" },
+      { "type": "practice",   "label": "Goblins Concept Check", "required": false },
+      { "type": "assessment", "label": "Unit {u} Assessment", "required": true }
+    ] },
+  { "id": "project-based-module", "name": "Project-Based Module", "subject": "*", "grades": ["*"], "status": "draft", "approvedBy": null, "derivedFrom": "Team brainstorm 2026-09-01 (module project at the bottom, steps auto-filled)",
+    "moduleLabel": "Module", "description": "Three teaching steps that feed one visible module project. Pick the project first; the steps fill in from the repo.",
+    "slots": [
+      { "type": "header",     "label": "Step 1: Build background", "required": true },
+      { "type": "lesson",     "label": "Core lesson", "required": true },
+      { "type": "reading",    "label": "Reading or primary source", "required": false },
+      { "type": "header",     "label": "Step 2: Practice the skill", "required": true },
+      { "type": "lesson",     "label": "Skill lesson", "required": true },
+      { "type": "discussion", "label": "Council chamber / seminar", "required": false },
+      { "type": "header",     "label": "Step 3: Show what you know", "required": true },
+      { "type": "project",    "label": "Module project", "required": true, "note": "Exhibit, oral exam, lab report, AI-with-character activity, or VR build" }
+    ] },
+  { "id": "lab-module", "name": "Lab Module", "subject": "science", "grades": ["*"], "status": "draft", "approvedBy": null, "derivedFrom": "Placeholder until the science lead submits requirements",
+    "moduleLabel": "Module", "description": "Phenomenon video, core lesson, hands-on or virtual lab, and a check.",
+    "slots": [
+      { "type": "video",      "label": "Phenomenon video", "required": true },
+      { "type": "lesson",     "label": "Core lesson", "required": true },
+      { "type": "assignment", "label": "Lab", "required": true },
+      { "type": "quiz",       "label": "Concept check", "required": true }
+    ] },
+  { "id": "socratic-seminar", "name": "Socratic Seminar Week", "subject": "*", "grades": ["5","6","7","8","9","10","11","12"], "status": "draft", "approvedBy": null, "derivedFrom": "Placeholder pattern; ladder of Socratic questions in the OAO planning table",
+    "moduleLabel": "Week", "description": "Read, annotate, deliberate, and write. Bloom's ladder climbs from understand to evaluate across the week.",
+    "slots": [
+      { "type": "reading",    "label": "Anchor text", "required": true },
+      { "type": "assignment", "label": "Annotation + Socratic question ladder", "required": true },
+      { "type": "discussion", "label": "Seminar", "required": true },
+      { "type": "assignment", "label": "Evidence-based essay", "required": true }
+    ] }
+ ]
+}
