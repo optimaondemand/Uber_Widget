@@ -317,5 +317,10 @@ pre.code { background: #0E1C42; color: #D6F2FB; padding: 12px; border-radius: 10
 .hero .owl { font-size: 84px; filter: drop-shadow(0 8px 16px rgba(0,0,0,.3)); }
 .recent { display: flex; gap: 8px; flex-wrap: wrap; }
 
+/* single-file preview build banner */
+.preview-bar { background: #FFF3DC; color: #6B4A0E; border-bottom: 1px solid #F1DB9E; padding: 6px 18px; font-size: 12.5px; }
+.preview-bar a { color: #1A8A7D; font-weight: 800; }
+.app.has-preview { grid-template-rows: auto auto 1fr; }
+
 /* print */
 @media print { .rail, .topbar, .btn, .toast-wrap { display: none !important; } .app { display: block; } .stage { padding: 0; overflow: visible; } }

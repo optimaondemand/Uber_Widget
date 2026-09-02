@@ -22,6 +22,12 @@ window.OCS = window.OCS || {};
   const BUNDLE_FILE = (subject, grade) => `${SUBJECT_TO_BUNDLE[subject] || subject}`.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '__' + String(grade).toLowerCase() + '.json';
 
   async function getJSON(url, { timeout = 8000 } = {}) {
+    // Single-file preview build: every data file ships inside the page (window.OCS_EMBED),
+    // and nothing may be fetched from the network, so live refreshes simply fall back.
+    if (window.OCS_EMBED) {
+      if (Object.prototype.hasOwnProperty.call(window.OCS_EMBED, url)) return JSON.parse(JSON.stringify(window.OCS_EMBED[url]));
+      throw new Error('offline preview: ' + url);
+    }
     const ctrl = ('AbortController' in window) ? new AbortController() : null;
     const t = ctrl ? setTimeout(() => ctrl.abort(), timeout) : null;
     try {
