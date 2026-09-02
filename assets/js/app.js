@@ -11,8 +11,24 @@
     bar.className = 'preview-bar';
     bar.innerHTML = `<b>Preview build</b> · everything works except downloads and live lesson frames, which need the published site. <a href="${site}" target="_blank" rel="noopener">${site.replace('https://', '')}</a>`;
     const app = document.querySelector('.app'); app.classList.add('has-preview'); app.insertBefore(bar, document.querySelector('.body'));
-    OCS.imscc.download = function (blob, fileName) {
-      ui.modal({ title: 'Downloads need the published site', body: `<p>This preview runs inside a sandbox that cannot save files. <b>${OCS.esc(fileName)}</b> was generated (${(blob.size / 1024).toFixed(0)} KB) but cannot be handed to your browser from here.</p><p class="small muted">Open the same plan on the published site to download it. Your plan is saved in this browser; use <b>Save plan file</b> there, or rebuild the plan in two clicks.</p>`, footer: `<a class="btn primary" href="${site}" target="_blank" rel="noopener">Open the published site ↗</a><button class="btn" data-close>Close</button>` });
+    // The artifact viewer hands files to the viewer only through its own save prompt, and only for
+    // an allow-listed set of extensions (json, csv, html, txt, md, pdf...). Cartridges and zips are
+    // not on that list, so those point to the published site instead.
+    let saver = null;
+    if (window.claude && typeof window.claude.use === 'function') { window.claude.use('downloads').then(ns => { saver = ns; }).catch(() => {}); }
+    const SAVEABLE = ['json', 'csv', 'html', 'txt', 'md', 'svg', 'pdf'];
+    const explain = (blob, fileName, why) => ui.modal({ title: 'This file needs the published site', body: `<p><b>${OCS.esc(fileName)}</b> was generated (${(blob.size / 1024).toFixed(0)} KB), but ${OCS.esc(why || 'this preview cannot hand it to your browser')}.</p><p class="small muted">Your plan is saved in this browser. On the published site the same buttons download normally; use <b>Save plan file</b> here to carry the plan across.</p>`, footer: `<a class="btn primary" href="${site}" target="_blank" rel="noopener">Open the published site ↗</a><button class="btn" data-close>Close</button>` });
+    OCS.imscc.download = async function (blob, fileName) {
+      const ext = (String(fileName).split('.').pop() || '').toLowerCase();
+      if (!SAVEABLE.includes(ext)) { explain(blob, fileName, ext === 'imscc' ? 'Canvas cartridges (.imscc) can only be saved from the published site' : 'zip files can only be saved from the published site'); return; }
+      if (!saver) { explain(blob, fileName, 'file saving is not available in this view'); return; }
+      try { await saver.save({ filename: fileName, data: blob }); ui.toast('Saved ' + fileName, 'good'); }
+      catch (e) {
+        const code = e && e.code;
+        if (code === 'declined') return;
+        if (code === 'rate_limited') { ui.toast('Another save prompt is still open. Finish it, then try again.', 'bad'); return; }
+        explain(blob, fileName, 'the viewer refused the save (' + OCS.esc(code || 'unavailable') + ')');
+      }
     };
     ui.previewPage = function (url, title) {
       ui.modal({ title: title || 'Lesson page', body: `<p>Live lesson pages cannot be framed inside this preview. Open it directly:</p><p><a class="btn primary" href="${OCS.esc(url)}" target="_blank" rel="noopener">Open the lesson page ↗</a></p><p class="tiny muted" style="word-break:break-all;">${OCS.esc(url)}</p>`, footer: `<button class="btn" data-close>Close</button>` });

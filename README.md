@@ -71,6 +71,10 @@ Then open http://localhost:8765/. (Opening `index.html` straight from the file s
 
 GitHub Pages serves the `main` branch root. Push, and the site updates at the URL above within a minute or two.
 
+## Single-file preview
+
+`perl tools/build-single-file.pl preview.html` writes one self-contained HTML file with every script, style, and data file inlined (about 6 MB). Use it for hosted previews where nothing can be fetched; add `--fragment` to omit the document wrapper. In that mode the app shows a banner, cannot frame live lesson pages, and can only save allow-listed file types (plan file, CSV, HTML); cartridges and zips need the published site.
+
 ## Adding content
 
 - **A new course:** export it from Canvas, download its lesson pages, add one line to `@COURSES` in `tools/build-catalog.pl`, rebuild. Or teachers can import the `.imscc` directly in Step 1 without any rebuild.
