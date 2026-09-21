@@ -14,7 +14,7 @@
     <p>Start from the On-Demand courses the team already built, then mute, reorder, and add your own pieces. Standards check themselves off as you go. Nothing here calls an AI model, and your work saves in this browser as you build.</p>
     <div class="flow"><span>1 · Course</span><span>2 · Standards cart</span><span>3 · Template</span><span>4 · Build the spine</span><span>5 · Enrich from libraries</span><span>6 · Style + calendar</span><span>7 · Export</span></div>
   </div>
-  <div class="owl">🦉</div>
+  ${ui.owlBadge(140, 'owl')}
 </div>
 <div class="grid cols-3">
   <div class="card pad">
@@ -51,7 +51,7 @@ ${recent.length ? `<h2 style="margin:22px 0 10px;">Recent plans in this browser<
     const cards = cat.courses.map(c => {
       const sk = OCS.skinFor(c.accent) || {}; const vt = c.counts.videosTotal || 0, vr = c.counts.videosReady || 0;
       return `<div class="card course-card ${p && p.course.sourceId === c.id ? 'selected' : ''}" data-course="${c.id}" style="border-top-color:${sk.accent || '#55C8E8'}">
-  <div class="emoji">${sk.emoji || '📘'}</div>
+  <div class="emoji">${sk.useLogo ? ui.owlBadge(40) : (sk.emoji || '📘')}</div>
   <div class="grade">Grade ${esc(c.grade)} · ${esc(c.subjectLabel)}</div>
   <h3>${esc(c.title)}</h3>
   <div class="counts"><span><b>${c.counts.modules}</b> modules</span><span><b>${c.counts.lessons}</b> lessons</span>${c.counts.quizzes ? `<span><b>${c.counts.quizzes}</b> quizzes</span>` : ''}<span><b>${c.counts.flStandards}</b> FL standards</span></div>

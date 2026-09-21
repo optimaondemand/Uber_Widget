@@ -14,7 +14,7 @@
   const SERIF = "'Lora',Georgia,'Times New Roman',serif";
 
   gen.skin = function (plan) {
-    const s = OCS.skinFor(plan && plan.skin && plan.skin.id) || { primary: '#0E1C42', accent: '#55C8E8', accent2: '#7FD8F0', tint: '#EAF8FD', gradient: 'linear-gradient(90deg,#55C8E8,#7FD8F0,#1A8A7D)', emoji: '🦉', name: 'Optima Navy' };
+    const s = OCS.skinFor(plan && plan.skin && plan.skin.id) || { primary: '#0E1C42', accent: '#55C8E8', accent2: '#7FD8F0', tint: '#EAF8FD', gradient: 'linear-gradient(90deg,#55C8E8,#7FD8F0,#1A8A7D)', emoji: '', useLogo: true, name: 'Optima Navy' };
     return s;
   };
   function jur(code) { return OCS.jurisdictionOf(code) || 'FL'; }
@@ -38,7 +38,7 @@
   <table role="presentation" style="width:100%;border-collapse:collapse;"><tbody><tr>
     <td style="width:60px;vertical-align:middle;padding-right:12px;"><img src="${esc(LOGO())}" alt="Optima Academy Online" style="display:block;width:48px;height:48px;border-radius:50%;background:#fff;padding:4px;"></td>
     <td style="vertical-align:middle;"><div style="font-size:18px;font-weight:800;line-height:1.15;">Optima Academy Online</div><div style="font-size:10.5px;color:${s.accent};letter-spacing:.6px;text-transform:uppercase;">An Education Experience Company</div></td>
-    <td style="text-align:right;vertical-align:middle;font-size:34px;">${emoji || s.emoji || ''}</td>
+    <td style="text-align:right;vertical-align:middle;font-size:34px;">${emoji || (s.useLogo ? '' : (s.emoji || ''))}</td>
   </tr></tbody></table>
   <div style="margin-top:16px;color:${s.accent};font-size:12px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;">${esc(kicker || [course.grade ? 'Grade ' + course.grade : '', course.subjectLabel || ''].filter(Boolean).join(' • '))}</div>
   <h1 style="margin:6px 0 4px;font-size:26px;line-height:1.15;font-weight:900;color:#fff;font-family:${FONT};">${esc(title || '')}</h1>

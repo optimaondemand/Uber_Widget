@@ -145,5 +145,10 @@
   ui.weekDate = function (n, plan) { const w1 = ui.week1(plan); if (!w1 || !n) return null; const d = new Date(w1 + 'T12:00:00'); d.setDate(d.getDate() + (n - 1) * 7); return d; };
   ui.weekLabel = function (n, plan) { const d = ui.weekDate(n, plan); return d ? `Wk ${n} · ${d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}` : `Wk ${n}`; };
   ui.weekCount = function (plan) { const cal = OCS.data.calendar; let last = 36; if (cal && cal.quarters) for (const q of cal.quarters) { const end = (plan && plan.calendar && plan.calendar.quarters && plan.calendar.quarters[q.id]) || q.end; const w = ui.weekOf(end, plan); if (w && w + 1 > last) last = w + 1; } return Math.min(last, 52); };
+  /* ---------- the Optima owl: the real logo wherever the brand stands in for an icon ---------- */
+  const LOGO_FALLBACK = 'https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png';
+  ui.logoUrl = function () { return (OCS.data.skins && OCS.data.skins.brand && OCS.data.skins.brand.logo) || LOGO_FALLBACK; };
+  ui.owlBadge = function (size = 40, extraClass = '') { return `<span class="owl-badge ${extraClass}" style="--sz:${size}px"><img src="${esc(ui.logoUrl())}" alt="Optima Academy Online owl"></span>`; };
+  ui.skinBadge = function (skin, size = 40) { return skin && skin.useLogo ? ui.owlBadge(size) : `<span>${esc((skin && skin.emoji) || '')}</span>`; };
   ui.emptyState = function (icon, title, text, cta) { return `<div class="card pad" style="text-align:center;padding:40px 20px;"><div style="font-size:44px;">${icon}</div><h2 style="margin:8px 0 4px;">${esc(title)}</h2><p class="muted" style="margin:0 auto 14px;max-width:460px;">${text}</p>${cta || ''}</div>`; };
 })(window.OCS);

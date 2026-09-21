@@ -314,7 +314,11 @@ pre.code { background: #0E1C42; color: #D6F2FB; padding: 12px; border-radius: 10
 .hero p { color: #D8E0F1; margin: 8px 0 0; max-width: 640px; }
 .hero .flow { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px; }
 .hero .flow span { padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,.1); font-size: 12px; font-weight: 800; border: 1px solid rgba(255,255,255,.2); }
-.hero .owl { font-size: 84px; filter: drop-shadow(0 8px 16px rgba(0,0,0,.3)); }
+/* the Optima owl on a white disc; the PNG carries wide transparent margins, so the image is scaled up inside the clipped circle */
+.owl-badge { --sz: 40px; width: var(--sz); height: var(--sz); border-radius: 50%; background: #fff; display: inline-flex; align-items: center; justify-content: center; overflow: hidden; box-shadow: 0 2px 8px rgba(14,28,66,.18); flex-shrink: 0; vertical-align: middle; }
+.owl-badge img { width: 100%; height: 100%; object-fit: contain; transform: scale(1.55); display: block; }
+.hero .owl { box-shadow: 0 14px 30px rgba(0,0,0,.35), 0 0 0 7px rgba(255,255,255,.08); }
+.course-card .emoji .owl-badge { box-shadow: 0 2px 8px rgba(14,28,66,.12); }
 .recent { display: flex; gap: 8px; flex-wrap: wrap; }
 
 /* single-file preview build banner */

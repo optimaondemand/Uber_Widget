@@ -10,7 +10,7 @@
   "tagline": "An Education Experience Company"
  },
  "skins": [
-  { "id": "optima-navy",       "name": "Optima Navy",       "mood": "Default house style",                          "subjects": ["*"],                        "primary": "#0E1C42", "accent": "#55C8E8", "accent2": "#7FD8F0", "tint": "#EAF8FD", "gradient": "linear-gradient(90deg,#55C8E8,#7FD8F0,#1A8A7D)", "emoji": "🦉" },
+  { "id": "optima-navy",       "name": "Optima Navy",       "mood": "Default house style",                          "subjects": ["*"],                        "primary": "#0E1C42", "accent": "#55C8E8", "accent2": "#7FD8F0", "tint": "#EAF8FD", "gradient": "linear-gradient(90deg,#55C8E8,#7FD8F0,#1A8A7D)", "emoji": "", "useLogo": true },
   { "id": "florida-historian", "name": "Florida Historian", "mood": "Grade 4 Social Studies, teal evidence trail",  "subjects": ["social-studies"],           "primary": "#0E1C42", "accent": "#1A8A7D", "accent2": "#55C8E8", "tint": "#E3F8ED", "gradient": "linear-gradient(90deg,#55C8E8,#7FD8F0,#1A8A7D)", "emoji": "🐊" },
   { "id": "museum-gallery",    "name": "Museum Gallery",    "mood": "Grade 3 Social Studies, navy and gold trim",   "subjects": ["social-studies"],           "primary": "#0E1C42", "accent": "#D7A52A", "accent2": "#F1DB9E", "tint": "#FFF7DF", "gradient": "linear-gradient(90deg,#D7A52A,#F1DB9E,#C7922C)", "emoji": "🏛️" },
   { "id": "storyteller-gold",  "name": "Storyteller Gold",  "mood": "ELA novels, warm gold and lavender",           "subjects": ["ela"],                      "primary": "#0E1C42", "accent": "#C7922C", "accent2": "#8B6FC0", "tint": "#FFF3DC", "gradient": "linear-gradient(90deg,#C7922C,#F5E6C8,#8B6FC0)", "emoji": "📖" },
