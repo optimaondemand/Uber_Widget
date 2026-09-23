@@ -87,7 +87,21 @@ function Get-AllPages([string]$url) {
 
 # ---------------------------------------------------------------- 1. list courses
 Write-Host "Canvas: $Domain  account: $AccountId"
-$me = Invoke-RestMethod -Uri "$base/users/self" -Headers $headers
+try {
+  $me = Invoke-RestMethod -Uri "$base/users/self" -Headers $headers
+} catch {
+  $detail = ''
+  try { $stream = $_.Exception.Response.GetResponseStream(); $detail = (New-Object IO.StreamReader($stream)).ReadToEnd() } catch {}
+  Write-Host ''
+  Write-Host "Canvas at $Domain refused the token." -ForegroundColor Red
+  if ($detail) { Write-Host "Canvas said: $detail" -ForegroundColor Yellow }
+  Write-Host 'What this usually means:'
+  Write-Host '  "Invalid access token"        the token was created on a different Canvas address, or was deleted/expired.'
+  Write-Host '                                 Use the address from your browser while signed in:  -Domain your.canvas.address'
+  Write-Host '  "user authorization required"  no token reached Canvas; check $env:CANVAS_TOKEN is set in THIS window.'
+  Write-Host "  Token in this window: length $($Token.Length), starts with $($Token.Substring(0, [Math]::Min(6, $Token.Length)))"
+  exit 1
+}
 Write-Host "Token belongs to: $($me.name) ($($me.login_id))"
 
 $courses = @()
