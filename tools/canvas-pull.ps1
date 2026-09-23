@@ -28,16 +28,22 @@
       Only these Canvas course ids (ignores -SearchTerm).
 
 .NOTES
+  The Optima build hub is optimaoaoteam.instructure.com: every K-12 master course lives there,
+  unpublished, in the Default Term (141 courses on 2026-09-23, about 125 real ones after the
+  test shells are excluded). optimadomi.instructure.com is the student-facing Canvas.
+
   Windows PowerShell 5.1 compatible. Exports typically take 30 s to 3 min each;
   Canvas queues them, so 100 courses is roughly an hour. Re-running skips
   cartridges downloaded in the last -MaxAgeHours hours.
 #>
 [CmdletBinding()]
 param(
-  [string]$Domain = 'optimadomi.instructure.com',
+  [string]$Domain = 'optimaoaoteam.instructure.com',
   [string]$Token = $env:CANVAS_TOKEN,
   [string]$AccountId = 'self',
-  [string]$SearchTerm = 'On-Demand',
+  [string]$SearchTerm = '',
+  # Courses whose name matches this pattern are never pulled (test shells and scratch imports). Case-insensitive.
+  [string]$Exclude = '^ZZ\b|\(delete me\)|delete after|Import Test|Pipeline Test|Read Aloud Test|^Teacher Resources$',
   [int[]]$CourseIds = @(),
   [string]$OutDir = '',
   [string]$ExportsDir = '',
@@ -45,10 +51,11 @@ param(
   [int]$PollSeconds = 8,
   [int]$MaxAgeHours = 24,
   [switch]$DryRun,
-  [switch]$IncludeUnpublished,
-  [switch]$All
+  [switch]$PublishedOnly,
+  [switch]$IncludeUnpublished,   # kept for older notes; unpublished masters are included by default now
+  [switch]$All                   # kept for older notes; an empty -SearchTerm is the default now
 )
-if ($All) { $SearchTerm = '' }   # -All lists every course in the account (an empty -SearchTerm cannot be passed through -File)
+if ($All) { $SearchTerm = '' }
 
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -111,13 +118,20 @@ if ($CourseIds.Count -gt 0) {
   foreach ($id in $CourseIds) { $courses += Invoke-RestMethod -Uri "$base/courses/$id" -Headers $headers }
 } else {
   $q = "$base/accounts/$AccountId/courses?per_page=100&include[]=term"
-  if ($SearchTerm) { $q += "&search_term=$([Uri]::EscapeDataString($SearchTerm))" }   # empty -SearchTerm '' lists every course
-  if (-not $IncludeUnpublished) { $q += '&published=true' }
+  if ($SearchTerm) { $q += "&search_term=$([Uri]::EscapeDataString($SearchTerm))" }
+  if ($PublishedOnly) { $q += '&published=true' }
   $courses = Get-AllPages $q
 }
+$before = $courses.Count
+$dropped = @()
+if ($Exclude) {
+  $dropped = @($courses | Where-Object { $_.name -imatch $Exclude })
+  $courses = @($courses | Where-Object { $_.name -inotmatch $Exclude })
+}
 $courses = $courses | Sort-Object name
-if ($SearchTerm) { Write-Host "Matched $($courses.Count) course(s) for '$SearchTerm'" } else { Write-Host "Listed $($courses.Count) course(s) (no name filter)" }
-if ($courses.Count -eq 0 -and -not $IncludeUnpublished) { Write-Host 'Tip: master courses are often unpublished; add -IncludeUnpublished.' -ForegroundColor Yellow }
+if ($SearchTerm) { Write-Host "Matched $($courses.Count) course(s) for '$SearchTerm'" } else { Write-Host "Listed $($courses.Count) course(s) in the account" }
+if ($dropped.Count) { Write-Host ("Excluded {0} test/scratch course(s): {1}" -f $dropped.Count, (($dropped | ForEach-Object { $_.name }) -join '; ')) -ForegroundColor DarkGray }
+if ($courses.Count -eq 0 -and $PublishedOnly) { Write-Host 'Tip: master courses are usually unpublished; drop -PublishedOnly.' -ForegroundColor Yellow }
 
 $listing = $courses | ForEach-Object {
   $termName = ''

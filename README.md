@@ -91,7 +91,7 @@ GitHub Pages serves the `main` branch root. Push, and the site updates at the UR
 
 ## Pulling every course from Canvas
 
-`tools/canvas-pull.ps1` exports master courses from Canvas as `.imscc` cartridges and unzips them into `exports/extracted/`, which is the `OCS_EXPORTS` folder the catalog builder reads. It needs a Canvas access token in `$env:CANVAS_TOKEN` (session only, never committed; `exports/` is ignored by git).
+`tools/canvas-pull.ps1` exports every master course from the team Canvas (optimaoaoteam.instructure.com, where all K-12 masters live unpublished) as `.imscc` cartridges and unzips them into `exports/extracted/`, which is the `OCS_EXPORTS` folder the catalog builder reads. It needs a Canvas access token in `$env:CANVAS_TOKEN` (session only, never committed; `exports/` is ignored by git).
 
 ```powershell
 $env:CANVAS_TOKEN = '<token>'
@@ -99,4 +99,4 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools\canvas-pull.ps1 -DryRu
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\canvas-pull.ps1           # export, download, unzip
 ```
 
-Filter with `-SearchTerm` (default `On-Demand`) or `-CourseIds 3411,3412`. Then rebuild the catalog with `OCS_EXPORTS=exports/extracted`.
+Test shells (ZZ kits, "delete me", import tests, Teacher Resources) are excluded by name; adjust with `-Exclude`. Narrow with `-SearchTerm Grade` or `-CourseIds 39,61`. `-Domain` switches Canvas instances. Then rebuild the catalog with `OCS_EXPORTS=exports/extracted`.
