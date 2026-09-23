@@ -88,3 +88,15 @@ GitHub Pages serves the `main` branch root. Push, and the site updates at the UR
 - Discussion topics export in Common Cartridge format but have not yet been verified against a Canvas import.
 - Templates and skins are starters pending input from subject leads and Bethany. The calendar is the board-approved 2026-27 calendar; early-dismissal planning days appear only as shading on the printed version and are not listed yet.
 - Video specs for Arthur/VR are pending from Porter.
+
+## Pulling every course from Canvas
+
+`tools/canvas-pull.ps1` exports master courses from Canvas as `.imscc` cartridges and unzips them into `exports/extracted/`, which is the `OCS_EXPORTS` folder the catalog builder reads. It needs a Canvas access token in `$env:CANVAS_TOKEN` (session only, never committed; `exports/` is ignored by git).
+
+```powershell
+$env:CANVAS_TOKEN = '<token>'
+powershell -NoProfile -ExecutionPolicy Bypass -File tools\canvas-pull.ps1 -DryRun   # list what would be pulled
+powershell -NoProfile -ExecutionPolicy Bypass -File tools\canvas-pull.ps1           # export, download, unzip
+```
+
+Filter with `-SearchTerm` (default `On-Demand`) or `-CourseIds 3411,3412`. Then rebuild the catalog with `OCS_EXPORTS=exports/extracted`.

@@ -1,4 +1,5 @@
 tools/.cache/
+exports/
 *.imscc
 Thumbs.db
 .DS_Store
