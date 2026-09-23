@@ -108,12 +108,14 @@ $courses = @()
 if ($CourseIds.Count -gt 0) {
   foreach ($id in $CourseIds) { $courses += Invoke-RestMethod -Uri "$base/courses/$id" -Headers $headers }
 } else {
-  $q = "$base/accounts/$AccountId/courses?per_page=100&include[]=term&search_term=$([Uri]::EscapeDataString($SearchTerm))"
+  $q = "$base/accounts/$AccountId/courses?per_page=100&include[]=term"
+  if ($SearchTerm) { $q += "&search_term=$([Uri]::EscapeDataString($SearchTerm))" }   # empty -SearchTerm '' lists every course
   if (-not $IncludeUnpublished) { $q += '&published=true' }
   $courses = Get-AllPages $q
 }
 $courses = $courses | Sort-Object name
-Write-Host "Matched $($courses.Count) course(s) for '$SearchTerm'"
+if ($SearchTerm) { Write-Host "Matched $($courses.Count) course(s) for '$SearchTerm'" } else { Write-Host "Listed $($courses.Count) course(s) (no name filter)" }
+if ($courses.Count -eq 0 -and -not $IncludeUnpublished) { Write-Host 'Tip: master courses are often unpublished; add -IncludeUnpublished.' -ForegroundColor Yellow }
 
 $listing = $courses | ForEach-Object {
   $termName = ''
