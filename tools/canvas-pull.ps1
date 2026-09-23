@@ -45,8 +45,10 @@ param(
   [int]$PollSeconds = 8,
   [int]$MaxAgeHours = 24,
   [switch]$DryRun,
-  [switch]$IncludeUnpublished
+  [switch]$IncludeUnpublished,
+  [switch]$All
 )
+if ($All) { $SearchTerm = '' }   # -All lists every course in the account (an empty -SearchTerm cannot be passed through -File)
 
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
